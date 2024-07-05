@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"6c0bb8e35da47307","type":"text","text":"Active","x":-102,"y":-151,"width":116,"height":59},
+		{"id":"0655c07b013489c5","type":"text","text":"Passive","x":-236,"y":-152,"width":125,"height":60},
+		{"id":"432aaceeadd22c59","type":"text","text":"Close loop\n(Feedback)","x":-44,"y":-40,"width":150,"height":60},
+		{"id":"014115f0745cdd96","type":"text","text":"Control","x":-168,"y":-260,"width":114,"height":60},
+		{"id":"6e60d26aa40ff77d","type":"text","text":"Open loop","x":-199,"y":-40,"width":145,"height":60}
+	],
+	"edges":[
+		{"id":"3e26c3d89780c32b","fromNode":"014115f0745cdd96","fromSide":"bottom","toNode":"0655c07b013489c5","toSide":"top"},
+		{"id":"639f678a7d15c4d1","fromNode":"014115f0745cdd96","fromSide":"bottom","toNode":"6c0bb8e35da47307","toSide":"top"},
+		{"id":"374565acef4b49d1","fromNode":"6c0bb8e35da47307","fromSide":"bottom","toNode":"6e60d26aa40ff77d","toSide":"top"},
+		{"id":"1655d5beb56a4ffb","fromNode":"6c0bb8e35da47307","fromSide":"bottom","toNode":"432aaceeadd22c59","toSide":"top"}
+	]
+}

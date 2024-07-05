@@ -1,0 +1,4 @@
+- Linear Algebra
+- 2nd Playlist for basics of ControlSys
+- Both playlist by next Wed (03/06/24)
+- Daily Updates Threads
