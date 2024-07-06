@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "804554130cf5f7a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Control_Bootcamp/2_Linear_System.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5291dc6bb98163f3",
             "type": "leaf",
             "state": {
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control_Bootcamp/2_Linear_System.md",
+                "file": "State_Space/1_State_Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control_Bootcamp/2_Linear_System.md",
+                "file": "State_Space/1_State_Space.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control_Bootcamp/2_Linear_System.md"
+                "file": "State_Space/1_State_Space.md"
               }
             }
           }
@@ -163,21 +151,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "804554130cf5f7a9",
+  "active": "f4da7815e9164a1f",
   "lastOpenFiles": [
+    "State_Space/0_State_Space.md",
+    "State_Space/1_State_Space.md",
+    "Control_Bootcamp/2_Linear_System.md",
     "Control_Bootcamp/0_Linear_System.md",
     "Control_Bootcamp/1_Linear_System.md",
-    "State_Space/0_State_Space.md",
-    "Control_Bootcamp/2_Linear_System.md",
     "State_Space",
     "Linear_Alg/3B1B_Series.md",
     "1582557358.png",
