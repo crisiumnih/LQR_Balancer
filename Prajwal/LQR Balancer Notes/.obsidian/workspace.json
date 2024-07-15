@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fca3a9ac1a8e3d30",
+        "id": "8b61a204f9c3ffae",
         "type": "tabs",
         "children": [
           {
-            "id": "5291dc6bb98163f3",
+            "id": "8dee57bf3432a782",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "State_Space/0_State_Space.md",
+                "file": "MOMs/MOM_1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7d3a8165ee0adcdb",
+            "id": "e57b2357f1adf716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control_Bootcamp/1_Linear_System.md",
+                "file": "Phasmo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "State_Space/1_State_Space.md",
+                "file": "Phasmo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "State_Space/1_State_Space.md",
+                "file": "Phasmo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "State_Space/1_State_Space.md"
+                "file": "Phasmo.md"
               }
             }
           }
@@ -160,21 +161,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f4da7815e9164a1f",
+  "active": "e57b2357f1adf716",
   "lastOpenFiles": [
+    "MOMs/MOM_1.md",
+    "Phasmo.md",
+    "Linear_Alg/3B1B_Series.md",
+    "Control_Bootcamp/2_Linear_System.md",
+    "Control_Bootcamp/1_Linear_System.md",
+    "Control_Bootcamp/0_Linear_System.md",
+    "MOMs/MOM_M0.md",
     "State_Space/0_State_Space.md",
     "State_Space/1_State_Space.md",
-    "Control_Bootcamp/2_Linear_System.md",
-    "Control_Bootcamp/0_Linear_System.md",
-    "Control_Bootcamp/1_Linear_System.md",
     "State_Space",
-    "Linear_Alg/3B1B_Series.md",
     "1582557358.png",
     "🔢 Dummy Maths Note.md",
     "Pasted image 20240629012731.png",
     "Untitled.canvas",
     "Control_Bootcamp",
-    "MOMs/MOM_M0.md",
     "Linear_Alg",
     "create a link.md",
     "MOMs",
