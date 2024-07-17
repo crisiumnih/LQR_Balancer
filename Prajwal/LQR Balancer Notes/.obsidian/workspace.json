@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e57b2357f1adf716",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Phasmo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "7142b39ecb11785d",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Phasmo.md",
+                "file": "MOMs/MOM_1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Phasmo.md",
+                "file": "MOMs/MOM_1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Phasmo.md"
+                "file": "MOMs/MOM_1.md"
               }
             }
           }
@@ -161,10 +147,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e57b2357f1adf716",
+  "active": "8dee57bf3432a782",
   "lastOpenFiles": [
-    "MOMs/MOM_1.md",
     "Phasmo.md",
+    "MOMs/MOM_1.md",
     "Linear_Alg/3B1B_Series.md",
     "Control_Bootcamp/2_Linear_System.md",
     "Control_Bootcamp/1_Linear_System.md",
