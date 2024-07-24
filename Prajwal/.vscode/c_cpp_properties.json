@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/crisiumnih/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include",
+                "/home/crisiumnih/esp/esp-idf/components/driver/rmt/include",
+                "/home/crisiumnih/esp/esp-idf/components/driver/gpio/include",
+                "/home/crisiumnih/esp/esp-idf/components/log"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

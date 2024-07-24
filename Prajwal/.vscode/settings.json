@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "task.h": "c",
+        "freertos.h": "c",
+        "stepper_motor_encoder.h": "c",
+        "stddef.h": "c"
+    }
+}
