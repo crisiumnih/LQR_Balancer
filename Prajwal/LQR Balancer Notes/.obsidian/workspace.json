@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fbbf31f342efda02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Phasmo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3753028402368d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Basics of Embedded.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "7142b39ecb11785d",
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "MOMs/MOM_1.md",
+                "file": "Basics of Embedded.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "MOMs/MOM_1.md",
+                "file": "Basics of Embedded.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "MOMs/MOM_1.md"
+                "file": "Basics of Embedded.md"
               }
             }
           }
@@ -147,9 +173,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8dee57bf3432a782",
+  "active": "3753028402368d6c",
   "lastOpenFiles": [
     "Phasmo.md",
+    "Basics of Embedded.md",
     "MOMs/MOM_1.md",
     "Linear_Alg/3B1B_Series.md",
     "Control_Bootcamp/2_Linear_System.md",

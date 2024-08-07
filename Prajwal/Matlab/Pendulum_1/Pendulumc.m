@@ -45,8 +45,8 @@ classdef Pendulumc
 
         function [time,y]=trylqr(obj)
             [A,B]=obj.ABPendulum();
-            Q=[100 0; 0 100];
-            R=0.001;
+            Q=[5000 0; 0 0.5];
+            R=0.0001;
             K = lqr(A,B,Q,R); 
             steps = 0:0.01:10;
             y0 = obj.theta_initial;

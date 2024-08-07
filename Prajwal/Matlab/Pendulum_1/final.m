@@ -1,7 +1,7 @@
 pendulum = Pendulumc;
 
 t_initial=[0 ;0]; % initial state position and angular vel
-t_final=[-pi/2;0]; % final state position and angular vel
+t_final=[-pi/2;2]; % final state position and angular vel
 
 pendulum = pendulum.setPara(1,1,t_initial,t_final);
 pendulum.m
