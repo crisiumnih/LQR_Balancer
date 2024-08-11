@@ -1,0 +1,1276 @@
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1
+IR_READING: 1ýets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RÅets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+invalid header: 0xffffffff
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x23 (DOWNLOAD_BOOT(UART0/UART1/SDIO_REI_REO_V2))
+waiting for download

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/CMakeFiles/bootloader
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/CMakeFiles/bootloader.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/CMakeFiles/bootloader-complete.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/crisiumnih/LQR_Balancer/Prajwal/test_stepper/closed_loop/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
