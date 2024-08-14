@@ -8,6 +8,7 @@
 #include "sdkconfig.h"
 #include "esp_rom_sys.h"  
 #include "mpu.h"
+#include "stepper.h"
 
 
 
@@ -63,7 +64,7 @@ void set_stepper_freq(float phi_ddot){
     freq=phi_ddot*K_u;
     base_freq=freq;
     // function to setup freq of motor to the desired freq
-    
+    set_stepper_frequency(freq);
 
     // function over
     
@@ -82,9 +83,11 @@ void control_loop(){
     phi_do=get_phid(time_req*1000);
     if(feedback_acc>=0){
         //set motor cw
+        set_stepper_direction(0);
     }
     else{
         //set motor acw
+        set_stepper_direction(1);
     }
     set_stepper_freq(feedback_acc);
 
