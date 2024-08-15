@@ -7,6 +7,7 @@
 #include "esp_log.h"
 #include "sdkconfig.h"
 #include "esp_rom_sys.h"  
+#include "esp_timer.h"
 #include "mpu.h"
 #include "stepper.h"
 
@@ -28,7 +29,7 @@ void state_eqn(float err[]){
     
     float current_1 = read_mpu();
     
-    vTaskDelay(10);
+    vTaskDelay(pdMS_TO_TICKS(10));
     float current_2 = read_mpu();
     
     err[0]=final_state[0]-current_2;
@@ -48,7 +49,7 @@ void state_eqn(float err[]){
 // supposing MPU reading for upright is 90 hence 50 steps available in each direction as of now
 float get_phid(__int64_t time_req){
     float angle1 = time_req*base_freq*0.0314;
-    vTaskDelay(10);
+    vTaskDelay(pdMS_TO_TICKS(10));
     float angle2 = (time_req+10)*base_freq*0.0314;
     phi_do=(angle2-angle1)/0.01;
     return phi_do;
@@ -93,10 +94,19 @@ void control_loop(){
 
 }
 
+void control_task(void *pvParameters) {
+    while(1) {
+        control_loop();
+        vTaskDelay(pdMS_TO_TICKS(10)); 
+    }
+}
+
 
 
 
 void app_main(void)
 {
+    xTaskCreate(&control_task, "control_task", 4096, NULL, 5, NULL);
+
 
 }

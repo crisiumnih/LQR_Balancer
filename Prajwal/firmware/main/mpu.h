@@ -1,1 +1,3 @@
-float read_mpu(){};
+float read_mpu(){
+    return 1;
+};
