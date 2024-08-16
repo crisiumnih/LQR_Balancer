@@ -32,10 +32,10 @@ void state_eqn(float err[]){
     float euler_angle[2], mpu_offset[2] = {0.0f, 0.0f};
     if(read_mpu6050(euler_angle, mpu_offset) == ESP_OK){
 
-        float current_1 = euler_angle[1];
+        float current_1 = (euler_angle[1]+mpu_offset[1])*0.0175;
     
         vTaskDelay(pdMS_TO_TICKS(10));
-        float current_2 = euler_angle[1];
+        float current_2 = (euler_angle[1]+mpu_offset[1])*0.0175;
         
         err[0]=final_state[0]-current_2;
         float d_theta1 = (current_2-current_1)/0.01;
