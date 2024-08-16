@@ -12,6 +12,9 @@
 #include "stepper.h"
 
 
+#include "sra_board.h"
+
+
 
 const float K[] ={-0.5924 ,-3.2264, -0.1000};
 const float final_state[] = {0, 0 ,0};
@@ -26,15 +29,21 @@ float phi_do = 0;
 
 
 void state_eqn(float err[]){
+    float euler_angle[2], mpu_offset[2] = {0.0f, 0.0f};
+    if(read_mpu6050(euler_angle, mpu_offset) == ESP_OK){
+
+        float current_1 = euler_angle[1];
     
-    float current_1 = read_mpu();
+        vTaskDelay(pdMS_TO_TICKS(10));
+        float current_2 = euler_angle[1];
+        
+        err[0]=final_state[0]-current_2;
+        float d_theta1 = (current_2-current_1)/0.01;
+        err[1]=final_state[1]-d_theta1;
+
+    }
     
-    vTaskDelay(pdMS_TO_TICKS(10));
-    float current_2 = read_mpu();
     
-    err[0]=final_state[0]-current_2;
-    float d_theta1 = (current_2-current_1)/0.01;
-    err[1]=final_state[1]-d_theta1;
     
     
 
