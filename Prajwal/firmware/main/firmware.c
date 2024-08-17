@@ -22,7 +22,7 @@ float base_freq = 500;
 float K_u= 200;
 float step_count = 0;
 float step_to_rad = 0.0314;
-float phi_do = 0;
+float phi_dot = 0;
 
 
 
@@ -55,13 +55,12 @@ void state_eqn(float err[]){
 
 }
 
-// supposing MPU reading for upright is 90 hence 50 steps available in each direction as of now
 float get_phid(__int64_t time_req){
     float angle1 = time_req*base_freq*0.0314;
     vTaskDelay(pdMS_TO_TICKS(10));
     float angle2 = (time_req+10)*base_freq*0.0314;
-    phi_do=(angle2-angle1)/0.01;
-    return phi_do;
+    phi_dot=(angle2-angle1)/0.01;
+    return phi_dot;
 }
 
 float set_ang_acc(float theta, float theta_dot, float phi_dot){
@@ -82,15 +81,18 @@ void set_stepper_freq(float phi_ddot){
 
 }
 
+//feedback_acc is phi_ddot
+
+
 void control_loop(){
     float err[3];
     __int64_t start_time = esp_timer_get_time(); 
     state_eqn(err);
-    err[2]=phi_do;
+    err[2]=phi_dot;
     float feedback_acc= set_ang_acc(err[0], err[1], err[2]);
     __int64_t end_time = esp_timer_get_time();
     __int64_t time_req = end_time-start_time;
-    phi_do=get_phid(time_req*1000);
+    phi_dot=get_phid(time_req*1000);
     if(feedback_acc>=0){
         //set motor cw
         set_stepper_direction(0);
