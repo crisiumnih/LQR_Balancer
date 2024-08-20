@@ -2,6 +2,10 @@
 #define STEPPER_CONTROL_H
 #include "driver/gpio.h"
 #include "driver/ledc.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_rom_sys.h"  
+
 #define GPIO_STEP    GPIO_NUM_14
 #define GPIO_DIR     GPIO_NUM_27
 
