@@ -67,6 +67,7 @@ void set_stepper_freq(float phi_ddot) {
 // feedback_acc is phi_ddot
 
 void control_loop() {
+    printf("control loop started");
   float err[3];
   __int64_t start_time = esp_timer_get_time();
   state_eqn(err);
@@ -85,31 +86,44 @@ void control_loop() {
   set_stepper_freq(feedback_acc);
 }
 
-SemaphoreHandle_t stepper_init_done;
+
 
 void stepper_task(void *pvParameters) {
   init_stepper(NULL);
-  xSemaphoreGive(stepper_init_done);
+  
   while (1) {
-    vTaskDelay(pdMS_TO_TICKS(10));
+    set_stepper_direction(0);
+    set_stepper_frequency(base_freq);
+    
+    int delay_ms = (1000 * STEPS_PER_REVOLUTION) / 500;
+    vTaskDelay(pdMS_TO_TICKS(delay_ms));
   }
 }
 
 void control_task(void *pvParameters) {
-  xSemaphoreTake(stepper_init_done, portMAX_DELAY);
+    printf("control task initiated\n");
+  
   while (1) {
+    printf("control task loop\n");
+    int delay_ms = (1000 * STEPS_PER_REVOLUTION) / 500;
+    vTaskDelay(pdMS_TO_TICKS(delay_ms));
     control_loop();
     vTaskDelay(pdMS_TO_TICKS(10));
   }
 }
 
 void app_main(void) {
-  stepper_init_done = xSemaphoreCreateBinary();
-  printf("\nfirst task\n");
-  xTaskCreate(&stepper_task, "stepper_task", 4096, NULL, 5, NULL);
-  printf("\nnext task\n");
-  xTaskCreate(&control_task, "control_task", 4096, NULL, 5, NULL);
-  while (1) {
-    vTaskDelay(pdMS_TO_TICKS(10));
-  }
+   
+    
+
+    xTaskCreatePinnedToCore(&stepper_task, "stepper_task", 8192, NULL, 1, NULL,0);
+    printf("Stepper task created\n");
+
+    xTaskCreatePinnedToCore(&control_task, "control_task", 8192, NULL, 2, NULL,1);
+    printf("Control task created\n");
+
+    while (1) {
+        printf("Main loop running\n");
+        vTaskDelay(pdMS_TO_TICKS(1000));
+    }
 }

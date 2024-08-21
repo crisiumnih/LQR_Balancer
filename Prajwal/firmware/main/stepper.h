@@ -14,4 +14,5 @@
 void init_stepper(void *arg);
 void set_stepper_frequency(int freq);
 void set_stepper_direction(int direction);
+void stepper_update();
 #endif

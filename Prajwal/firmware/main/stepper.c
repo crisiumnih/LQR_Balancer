@@ -31,14 +31,7 @@ void init_stepper(void *arg) {
 
     ESP_LOGI(TAG, "Stepper motor initialized");
     
-    while (1) {
-        // Continuous operation example, modify as needed
-        set_stepper_direction(0);  // Set direction
-        set_stepper_frequency(500); // Set frequency
-        
-        int delay_ms = (1000 * STEPS_PER_REVOLUTION) / 500;
-        vTaskDelay(pdMS_TO_TICKS(delay_ms));
-    }
+    
 }
 
 void set_stepper_frequency(int freq) {
