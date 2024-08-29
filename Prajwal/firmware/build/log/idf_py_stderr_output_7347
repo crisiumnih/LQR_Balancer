@@ -1,0 +1,56 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000d099: __udivdi3 in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x4000d096: __udivdi3 in ROM
+0x400d9ddd: ledc_calculate_divisor at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:351
+ (inlined by) ledc_set_timer_div at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:515
+0x400da795: ledc_set_freq at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:850
+0x400d6812: set_stepper_frequency at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/stepper.c:39
+0x400d66b9: set_stepper_freq at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:64
+0x400d673d: control_loop at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:89
+0x400d6758: control_task at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:113
+0x40087325: vPortTaskWrapper at /home/crisiumnih/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000d099: __udivdi3 in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x4000d096: __udivdi3 in ROM
+0x400d9ddd: ledc_calculate_divisor at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:351
+ (inlined by) ledc_set_timer_div at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:515
+0x400da795: ledc_set_freq at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:850
+0x400d6812: set_stepper_frequency at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/stepper.c:39
+0x400d66b9: set_stepper_freq at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:64
+0x400d673d: control_loop at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:89
+0x400d6758: control_task at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:113
+0x40087325: vPortTaskWrapper at /home/crisiumnih/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x4000d099: __udivdi3 in ROM
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x4000d096: __udivdi3 in ROM
+0x400d9ddd: ledc_calculate_divisor at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:351
+ (inlined by) ledc_set_timer_div at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:515
+0x400da795: ledc_set_freq at /home/crisiumnih/esp/esp-idf/components/esp_driver_ledc/src/ledc.c:850
+0x400d6812: set_stepper_frequency at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/stepper.c:39
+0x400d66b9: set_stepper_freq at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:64
+0x400d673d: control_loop at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:89
+0x400d6758: control_task at /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:113
+0x40087325: vPortTaskWrapper at /home/crisiumnih/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

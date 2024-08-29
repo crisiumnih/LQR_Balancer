@@ -1,0 +1,66 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/bootloader/esp-idf/esptool_py && /home/crisiumnih/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/crisiumnih/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/bootloader/bootloader.bin
+Bootloader binary size 0x6880 bytes. 0x780 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/firmware.c.obj
+In file included from /home/crisiumnih/LQR_Balancer/Prajwal/firmware/components/sra-board-component/include/servo.h:30,
+                 from /home/crisiumnih/LQR_Balancer/Prajwal/firmware/components/sra-board-component/include/sra_board.h:35,
+                 from /home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:16:
+/home/crisiumnih/esp/esp-idf/components/driver/deprecated/driver/mcpwm.h:15:2: warning: #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)" [-Wcpp]
+   15 | #warning "legacy MCPWM driver is deprecated, please migrate to the new driver (include driver/mcpwm_prelude.h)"
+      |  ^~~~~~~
+/home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c: In function 'control_loop':
+/home/crisiumnih/LQR_Balancer/Prajwal/firmware/main/firmware.c:78:18: warning: using integer absolute value function 'abs' when argument is of floating-point type 'float' [-Wabsolute-value]
+   78 |   feedback_acc = abs(feedback_acc);
+      |                  ^~~
+[3/8] Linking C static library esp-idf/main/libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable firmware.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.8.dev4
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/firmware.bin
+[7/8] cd /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/esp-idf/esptool_py && /home/crisiumnih/.espressif/python_env/idf5.3_py3.10_env/bin/python /home/crisiumnih/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/partition_table/partition-table.bin /home/crisiumnih/LQR_Balancer/Prajwal/firmware/build/firmware.bin
+firmware.bin binary size 0x35490 bytes. Smallest app partition is 0x100000 bytes. 0xcab70 bytes (79%) free.
+[7/8] cd /home/crisiumnih/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/crisiumnih/esp/esp-idf -D "SERIAL_TOOL=/home/crisiumnih/.espressif/python_env/idf5.3_py3.10_env/bin/python;;/home/crisiumnih/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/crisiumnih/LQR_Balancer/Prajwal/firmware/build -P /home/crisiumnih/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 firmware.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.dev4
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: ac:67:b2:72:a7:00
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00045fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26752 bytes to 16352...
+Writing at 0x00001000... (100 %)
+Wrote 26752 bytes (16352 compressed) at 0x00001000 in 0.7 seconds (effective 287.9 kbit/s)...
+Hash of data verified.
+Compressed 218256 bytes to 117196...
+Writing at 0x00010000... (12 %)
+Writing at 0x0001d276... (25 %)
+Writing at 0x00023147... (37 %)
+Writing at 0x000290b8... (50 %)
+Writing at 0x0002eec5... (62 %)
+Writing at 0x00038363... (75 %)
+Writing at 0x0003df17... (87 %)
+Writing at 0x00044380... (100 %)
+Wrote 218256 bytes (117196 compressed) at 0x00010000 in 2.8 seconds (effective 631.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 537.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

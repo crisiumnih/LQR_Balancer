@@ -1,0 +1,398 @@
+sp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19714h (104212) map[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6f8h ( 46840) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b720 vaddr=3ffb0000 size=023dch (  9180) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001db04 vaddr=40080000 size=02514h (  9492) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19714h (104212) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=0003973c vaddr=40082514 size=0bd24h ( 48420) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  84f10c081...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB2D98 len 0002D268 (180 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (332) main_task: Started on CPU0[0m
+[0;32mI (342) main_task: Calling app_main()[0m
+[0;32mI (342) stepper: Stepper motor initialized[0m
+[0;32mI (342) stepper: Stepper direction set to 0[0m
+[0;32mI (342) stepper: Stepper frequency set to 500 Hz[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+[0;32mI (752) stepper: Stepper direction set to 0[0m
+[0;32mI (752) stepper: Stepper frequency set to 500 Hz[0m
+control loop started[0;32mI (772) mpu_test: Roll: 0.76 | Pitch: 2.35[0m
+[0;32mI (782) stepper: Stepper direction set to 1[0m
+[0;31mE (782) ledc: requested frequency -4 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (782) stepper: Stepper frequency set to -4 Hz[0m
+control task loop
+[0;32mI (1152) stepper: Stepper direction set to 0[0m
+[0;31mE (1152) ledc: requested frequency -4 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1152) stepper: Stepper frequency set to -4 Hz[0m
+control loop started[0;32mI (1212) mpu_test: Roll: -0.97 | Pitch: 1.48[0m
+[0;32mI (1222) stepper: Stepper direction set to 0[0m
+[0;31mE (1222) ledc: requested frequency 319996 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1222) stepper: Stepper frequency set to 319996 Hz[0m
+control task loop
+Main loop running
+[0;32mI (1562) stepper: Stepper direction set to 0[0m
+[0;31mE (1562) ledc: requested frequency 319996 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1562) stepper: Stepper frequency set to 319996 Hz[0m
+control loop started[0;32mI (1652) mpu_test: Roll: -2.68 | Pitch: -1.55[0m
+[0;32mI (1662) stepper: Stepper direction set to 1[0m
+[0;31mE (1662) ledc: requested frequency -2496 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1662) stepper: Stepper frequency set to -2496 Hz[0m
+control task loop
+[0;32mI (1972) stepper: Stepper direction set to 0[0m
+[0;31mE (1972) ledc: requested frequency -2496 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1972) stepper: Stepper frequency set to -2496 Hz[0m
+control loop started[0;32mI (2092) mpu_test: Roll: -4.35 | Pitch: -2.75[0m
+[0;32mI (2102) stepper: Stepper direction set to 0[0m
+[0;31mE (2102) ledc: requested frequency 196608000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2102) stepper: Stepper frequency set to 196608000 Hz[0m
+control task loop
+Main loop running
+[0;32mI (2382) stepper: Stepper direction set to 0[0m
+[0;31mE (2382) ledc: requested frequency 196608000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2382) stepper: Stepper frequency set to 196608000 Hz[0m
+control loop started[0;32mI (2532) mpu_test: Roll: -6.00 | Pitch: -3.10[0m
+[0;32mI (2542) stepper: Stepper direction set to 1[0m
+[0;31mE (2542) ledc: requested frequency -1535993 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2542) stepper: Stepper frequency set to -1535993 Hz[0m
+control task loop
+[0;32mI (2792) stepper: Stepper direction set to 0[0m
+[0;31mE (2792) ledc: requested frequency -1535993 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2792) stepper: Stepper frequency set to -1535993 Hz[0m
+control loop started[0;32mI (2972) mpu_test: Roll: -7.62 | Pitch: -5.19[0m
+[0;32mI (2982) stepper: Stepper direction set to 0[0m
+[0;31mE (2982) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2982) stepper: Stepper frequency set to 2147483647 Hz[0m
+control task loop
+[0;32mI (3202) stepper: Stepper direction set to 0[0m
+[0;31mE (3202) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (3202) stepper: Stepper frequency set to 2147483647 Hz[0m
+Main loop running
+control loop started[0;32mI (3412) mpu_test: Roll: -9.21 | Pitch: -0.33[0m
+[0;32mI (3422) stepper: Stepper direction set to 1[0m
+[0;31mE (3422) ledc: requested frequency -983040000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (3422) stepper: Stepper frequency set to -983040000 Hz[0m
+control task loop
+[0;32mI (3612) stepper: Stepper direction set to 0[0m
+[0;31mE (3612) ledc: requested frequency -983040000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (3612) stepper: Stepper frequency set to -983040000 Hz[0m
+control loop started[0;32mI (3852) mpu_test: Roll: -11.64 | Pitch: 0.97[0m
+[0;32mI (3862) stepper: Stepper direction set to 0[0m
+[0;31mE (3862) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (3862) stepper: Stepper frequency set to 2147483647 Hz[0m
+control task loop
+[0;32mI (4022) stepper: Stepper direction set to 0[0m
+[0;31mE (4022) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (4022) stepper: Stepper frequency set to 2147483647 Hz[0m
+control loop started[0;32mI (4292) mpu_test: Roll: -13.17 | Pitch: 4.87[0m
+[0;32mI (4302) stepper: Stepper direction set to 1[0m
+Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x4000d099  PS      : 0x00060c30  A0      : 0x800d9dd4  A1      : 0x3ffb8cd0  
+A2      : 0xc4b40000  A3      : 0x00000004  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000005  A7      : 0x00000003  A8      : 0x00000001  A9      : 0x00000004  
+A10     : 0x00000000  A11     : 0xc4b40000  A12     : 0x3ffb8c04  A13     : 0x00000000  
+A14     : 0x3ffb8be0  A15     : 0xff000000  SAR     : 0x00000016  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xfffffffd  
+
+
+Backtrace: 0x4000d096:0x3ffb8cd0 0x400d9dd1:0x3ffb8cf0 0x400da789:0x3ffb8d30 0x400d6806:0x3ffb8d70 0x400d66b9:0x3ffb8d90 0x400d6731:0x3ffb8dc0 0x400d674c:0x3ffb8e00 0x40087325:0x3ffb8e20
+
+
+
+
+ELF file SHA256: 84f10c081
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6f8h ( 46840) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b720 vaddr=3ffb0000 size=023dch (  9180) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001db04 vaddr=40080000 size=02514h (  9492) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19714h (104212) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=0003973c vaddr=40082514 size=0bd24h ( 48420) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  84f10c081...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFB2D98 len 0002D268 (180 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (293) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (332) main_task: Started on CPU0[0m
+[0;32mI (342) main_task: Calling app_main()[0m
+[0;32mI (342) stepper: Stepper motor initialized[0m
+[0;32mI (342) stepper: Stepper direction set to 0[0m
+[0;32mI (342) stepper: Stepper frequency set to 500 Hz[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+[0;32mI (752) stepper: Stepper direction set to 0[0m
+[0;32mI (752) stepper: Stepper frequency set to 500 Hz[0m
+control loop started[0;32mI (772) mpu_test: Roll: 0.57 | Pitch: 10.76[0m
+[0;32mI (782) stepper: Stepper direction set to 1[0m
+[0;31mE (782) ledc: requested frequency -22 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (782) stepper: Stepper frequency set to -22 Hz[0m
+control task loop
+[0;32mI (1152) stepper: Stepper direction set to 0[0m
+[0;31mE (1152) ledc: requested frequency -22 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1152) stepper: Stepper frequency set to -22 Hz[0m
+control loop started[0;32mI (1212) mpu_test: Roll: -1.15 | Pitch: 11.64[0m
+[0;32mI (1222) stepper: Stepper direction set to 0[0m
+[0;31mE (1222) ledc: requested frequency 287975 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1222) stepper: Stepper frequency set to 287975 Hz[0m
+control task loop
+Main loop running
+[0;32mI (1562) stepper: Stepper direction set to 0[0m
+[0;31mE (1562) ledc: requested frequency 287975 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1562) stepper: Stepper frequency set to 287975 Hz[0m
+control loop started[0;32mI (1652) mpu_test: Roll: -3.72 | Pitch: 1.64[0m
+[0;32mI (1662) stepper: Stepper direction set to 1[0m
+[0;31mE (1662) ledc: requested frequency -14003 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1662) stepper: Stepper frequency set to -14003 Hz[0m
+control task loop
+[0;32mI (1972) stepper: Stepper direction set to 0[0m
+[0;31mE (1972) ledc: requested frequency -14003 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1972) stepper: Stepper frequency set to -14003 Hz[0m
+control loop started[0;32mI (2092) mpu_test: Roll: -4.51 | Pitch: -0.93[0m
+[0;32mI (2102) stepper: Stepper direction set to 0[0m
+[0;31mE (2102) ledc: requested frequency 180224000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2102) stepper: Stepper frequency set to 180224000 Hz[0m
+control task loop
+Main loop running
+[0;32mI (2382) stepper: Stepper direction set to 0[0m
+[0;31mE (2382) ledc: requested frequency 180224000 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2382) stepper: Stepper frequency set to 180224000 Hz[0m
+control loop started[0;32mI (2532) mpu_test: Roll: -4.39 | Pitch: -3.51[0m
+[0;32mI (2542) stepper: Stepper direction set to 1[0m
+[0;31mE (2542) ledc: requested frequency -9215993 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2542) stepper: Stepper frequency set to -9215993 Hz[0m
+control task loop
+[0;32mI (2792) stepper: Stepper direction set to 0[0m
+[0;31mE (2792) ledc: requested frequency -9215993 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2792) stepper: Stepper frequency set to -9215993 Hz[0m
+control loop started[0;32mI (2972) mpu_test: Roll: -12.52 | Pitch: 6.50[0m
+[0;32mI (2982) stepper: Stepper direction set to 0[0m
+[0;31mE (2982) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2982) stepper: Stepper frequency set to 2147483647 Hz[0m
+control task loop
+[0;32mI (3202) stepper: Stepper direction set to 0[0m
+[0;31mE (3202) ledc: requested frequency 2147483647 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (3202) stepper: Stepper frequency set to 2147483647 Hz[0m
+Main loop running
+control loop started[0;32mI (3412) mpu_test: Roll: -14.04 | Pitch: 10.38[0m
+[0;32mI (3422) stepper: Stepper direction set to 1[0m
+Guru Meditation Error: Core  1 panic'ed (IntegerDivideByZero). Exception was unhandled.
+
+Core  1 register dump:
+PC      : 0x4000d099  PS      : 0x00060c30  A0      : 0x800d9dd4  A1      : 0x3ffb8cd0  
+A2      : 0xc4b40000  A3      : 0x00000004  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000005  A7      : 0x00000003  A8      : 0x00000001  A9      : 0x00000004  
+A10     : 0x00000000  A11     : 0xc4b40000  A12     : 0x3ffb8c04  A13     : 0x00000000  
+A14     : 0x3ffb8be0  A15     : 0xff000000  SAR     : 0x00000016  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xfffffffd  
+
+
+Backtrace: 0x4000d096:0x3ffb8cd0 0x400d9dd1:0x3ffb8cf0 0x400da789:0x3ffb8d30 0x400d6806:0x3ffb8d70 0x400d66b9:0x3ffb8d90 0x400d6731:0x3ffb8dc0 0x400d674c:0x3ffb8e00 0x40087325:0x3ffb8e20
+
+
+
+
+ELF file SHA256: 84f10c081
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6f8h ( 46840) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b720 vaddr=3ffb0000 size=023dch (  9180) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001db04 vaddr=40080000 size=02514h (  9492) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19714h (104212) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=0003973c vaddr=40082514 size=0bd24h ( 48420) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  84f10c081...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFB2D98 len 0002D268 (180 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (293) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (332) main_task: Started on CPU0[0m
+[0;32mI (342) main_task: Calling app_main()[0m
+[0;32mI (342) stepper: Stepper motor initialized[0m
+[0;32mI (342) stepper: Stepper direction set to 0[0m
+[0;32mI (342) stepper: Stepper frequency set to 500 Hz[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+[0;32mI (752) stepper: Stepper direction set to 0[0m
+[0;32mI (752) stepper: Stepper frequency set to 500 Hz[0m
+control loop started[0;32mI (772) mpu_test: Roll: 0.40 | Pitch: 9.05[0m
+[0;32mI (782) stepper: Stepper direction set to 1[0m
+[0;31mE (782) ledc: requested frequency -18 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (782) stepper: Stepper frequency set to -18 Hz[0m
+control task loop
+[0;32mI (1152) stepper: Stepper direction set to 0[0m
+[0;31mE (1152) ledc: requested frequency -18 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1152) stepper: Stepper frequency set to -18 Hz[0m
+control loop started[0;32mI (1212) mpu_test: Roll: -0.88 | Pitch: 12.46[0m
+[0;32mI (1222) stepper: Stepper direction set to 0[0m
+[0;31mE (1222) ledc: requested frequency 287974 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1222) stepper: Stepper frequency set to 287974 Hz[0m
+control task loop
+Main loop running
+[0;32mI (1562) stepper: Stepper direction set to 0[0m
+[0;31mE (1562) ledc: requested frequency 287974 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1562) stepper: Stepper frequency set to 287974 Hz[0m
+control loop started[0;32mI (1652) mpu_test: Roll: -109.32 | Pitch: 118.63[0m
+[0;32mI (1662) stepper: Stepper direction set to 1[0m
+[0;31mE (1662) ledc: requested frequency -11245 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1662) stepper: Stepper frequency set to -11245 Hz[0m
+control task loop
+[0;32mI (1972) stepper: Stepper direction set to 0[0m
+[0;31mE (1972) ledc: requested frequency -11245 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (1972) stepper: Stepper frequency set to -11245 Hz[0m
+control loop started[0;32mI (2092) mpu_test: Roll: -109.15 | Pitch: 116.54[0m
+[0;32mI (2102) stepper: Stepper direction set to 0[0m
+[0;31mE (2102) ledc: requested frequency 180223760 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2102) stepper: Stepper frequency set to 180223760 Hz[0m
+control task loop
+Main loop running
+[0;32mI (2382) stepper: Stepper direction set to 0[0m
+[0;31mE (2382) ledc: requested frequency 180223760 and duty resolution 10 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;32mI (2382) stepper: Stepper frequency set to 180223760 Hz[0m
+control loop started[0;32mI (2532) mpu_test: Roll: -108.54 | Pitch: 114.49[0m
+[0;32mI (2542) stepper: Stepper direction set to 1[0m

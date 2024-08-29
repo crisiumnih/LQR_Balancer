@@ -1,0 +1,1100 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6b8h ( 46776) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b6e0 vaddr=3ffb0000 size=023ech (  9196) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001dad4 vaddr=40080000 size=02544h (  9540) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=198d8h (104664) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=00039900 vaddr=40082544 size=0bcf4h ( 48372) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  221bd0596...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB2DA0 len 0002D260 (180 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (332) main_task: Started on CPU0[0m
+[0;32mI (342) main_task: Calling app_main()[0m
+motro ok
+[0;32mI (342) stepper: Stepper direction set to 0[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+control loop started[0;32mI (462) mpu_test: Roll: -1.66 | Pitch: -0.37[0m
+0.003904
+[0;32mI (462) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (592) mpu_test: Roll: -2.18 | Pitch: -0.48[0m
+1600.004883
+[0;32mI (592) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (722) mpu_test: Roll: -2.58 | Pitch: -0.47[0m
+0.004893
+[0;32mI (722) stepper: Stepper direction set to 0[0m
+[0;32mI (742) stepper: Stepper direction set to 0[0m
+Guru Meditation Error: Core  0 panic'ed (IntegerDivideByZero). Exception was unhandled.
+
+Core  0 register dump:
+PC      : 0x4000d099  PS      : 0x00060130  A0      : 0x800d9e70  A1      : 0x3ffb6bf0  
+A2      : 0xc4b40000  A3      : 0x00000004  A4      : 0x00000000  A5      : 0x00000000  
+A6      : 0x00000003  A7      : 0x00060023  A8      : 0x00000001  A9      : 0x00000004  
+A10     : 0x00000000  A11     : 0xc4b40000  A12     : 0x00000000  A13     : 0x3f4031bf  
+A14     : 0x00000005  A15     : 0x00000003  SAR     : 0x00000014  EXCCAUSE: 0x00000006  
+EXCVADDR: 0x00000000  LBEG    : 0x400014fd  LEND    : 0x4000150d  LCOUNT  : 0xfffffffd  
+
+
+Backtrace: 0x4000d096:0x3ffb6bf0 0x400d9e6d:0x3ffb6c10 0x400da94d:0x3ffb6c50 0x400d6870:0x3ffb6c90 0x400d64e4:0x3ffb6cb0 0x40087325:0x3ffb6cd0
+
+
+
+
+ELF file SHA256: 221bd0596
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6b8h ( 46776) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b6e0 vaddr=3ffb0000 size=023ech (  9196) load[0m
+[0;32mI (124) esp_image: segment 2: paddr=0001dad4 vaddr=40080000 size=02544h (  9540) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=198d8h (104664) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=00039900 vaddr=40082544 size=0bcf4h ( 48372) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (217) app_init: Application information:[0m
+[0;32mI (220) app_init: Project name:     firmware[0m
+[0;32mI (225) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  221bd0596...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (246) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (251) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (256) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (261) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (268) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (274) heap_init: At 3FFB2DA0 len 0002D260 (180 KiB): DRAM[0m
+[0;32mI (280) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (293) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (304) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (321) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (332) main_task: Started on CPU0[0m
+[0;32mI (342) main_task: Calling app_main()[0m
+motro ok
+[0;32mI (342) stepper: Stepper direction set to 0[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+control loop started[0;32mI (462) mpu_test: Roll: -1.68 | Pitch: -1.32[0m
+0.013733
+[0;32mI (462) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (592) mpu_test: Roll: -1.96 | Pitch: -2.06[0m
+1600.021362
+[0;32mI (592) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (722) mpu_test: Roll: -2.49 | Pitch: -2.27[0m
+6.273539
+[0;32mI (722) stepper: Stepper direction set to 0[0m
+[0;32mI (742) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (852) mpu_test: Roll: -3.24 | Pitch: -3.23[0m
+983040.062500
+[0;32mI (852) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (982) mpu_test: Roll: -3.55 | Pitch: -2.44[0m
+3840.025391
+[0;32mI (982) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (1112) mpu_test: Roll: -4.17 | Pitch: -2.40[0m
+587202560.000000
+[0;32mI (1112) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (1142) stepper: Stepper direction set to 0[0m
+[0;31mE (1142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (1242) mpu_test: Roll: -4.52 | Pitch: -2.48[0m
+2293760.000000
+[0;32mI (1242) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (1372) mpu_test: Roll: -5.57 | Pitch: -2.09[0m
+6710886400.000000
+[0;32mI (1372) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (1502) mpu_test: Roll: -5.91 | Pitch: -2.04[0m
+1509949440.000000
+[0;32mI (1502) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (1542) stepper: Stepper direction set to 0[0m
+[0;31mE (1542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (1632) mpu_test: Roll: -6.48 | Pitch: -1.98[0m
+6710886400.000000
+[0;32mI (1632) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (1762) mpu_test: Roll: -7.91 | Pitch: -1.93[0m
+6710886400.000000
+[0;32mI (1762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (1892) mpu_test: Roll: -8.21 | Pitch: -2.01[0m
+6710886400.000000
+[0;32mI (1892) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (1942) stepper: Stepper direction set to 0[0m
+[0;31mE (1942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (2022) mpu_test: Roll: -8.75 | Pitch: -1.96[0m
+6710886400.000000
+[0;32mI (2022) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (2152) mpu_test: Roll: -8.89 | Pitch: -1.91[0m
+6710886400.000000
+[0;32mI (2152) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (2282) mpu_test: Roll: -9.29 | Pitch: -1.86[0m
+6710886400.000000
+[0;32mI (2282) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (2342) stepper: Stepper direction set to 0[0m
+[0;31mE (2342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (2412) mpu_test: Roll: -9.44 | Pitch: -1.94[0m
+6710886400.000000
+[0;32mI (2412) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (2542) mpu_test: Roll: -10.08 | Pitch: -2.02[0m
+6710886400.000000
+[0;32mI (2542) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (2672) mpu_test: Roll: -10.47 | Pitch: -2.10[0m
+6710886400.000000
+[0;32mI (2672) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (2742) stepper: Stepper direction set to 0[0m
+[0;31mE (2742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (2802) mpu_test: Roll: -10.71 | Pitch: -2.05[0m
+6710886400.000000
+[0;32mI (2802) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (2932) mpu_test: Roll: -10.97 | Pitch: -2.13[0m
+6710886400.000000
+[0;32mI (2932) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (3062) mpu_test: Roll: -11.33 | Pitch: -2.20[0m
+6710886400.000000
+[0;32mI (3062) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (3142) stepper: Stepper direction set to 0[0m
+[0;31mE (3142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (3192) mpu_test: Roll: -11.69 | Pitch: -2.14[0m
+6710886400.000000
+[0;32mI (3192) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (3322) mpu_test: Roll: -12.03 | Pitch: -2.21[0m
+6710886400.000000
+[0;32mI (3322) stepper: Stepper direction set to 0[0m
+Main loop running
+control task loop
+control loop started[0;32mI (3452) mpu_test: Roll: -12.37 | Pitch: -2.28[0m
+6710886400.000000
+[0;32mI (3452) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (3542) stepper: Stepper direction set to 0[0m
+[0;31mE (3542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (3582) mpu_test: Roll: -12.72 | Pitch: -2.36[0m
+6710886400.000000
+[0;32mI (3582) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (3712) mpu_test: Roll: -13.05 | Pitch: -2.42[0m
+6710886400.000000
+[0;32mI (3712) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (3842) mpu_test: Roll: -13.38 | Pitch: -2.48[0m
+6710886400.000000
+[0;32mI (3842) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (3942) stepper: Stepper direction set to 0[0m
+[0;31mE (3942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (3972) mpu_test: Roll: -13.71 | Pitch: -2.43[0m
+6710886400.000000
+[0;32mI (3972) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4102) mpu_test: Roll: -14.01 | Pitch: -2.36[0m
+6710886400.000000
+[0;32mI (4102) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4232) mpu_test: Roll: -14.72 | Pitch: -2.53[0m
+6710886400.000000
+[0;32mI (4232) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (4342) stepper: Stepper direction set to 0[0m
+[0;31mE (4342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (4362) mpu_test: Roll: -15.04 | Pitch: -3.00[0m
+6710886400.000000
+[0;32mI (4362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4492) mpu_test: Roll: -15.35 | Pitch: -2.67[0m
+6710886400.000000
+[0;32mI (4492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4622) mpu_test: Roll: -15.39 | Pitch: -2.61[0m
+6710886400.000000
+[0;32mI (4622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (4742) stepper: Stepper direction set to 0[0m
+[0;31mE (4742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (4762) mpu_test: Roll: -15.57 | Pitch: -2.67[0m
+6710886400.000000
+[0;32mI (4762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4892) mpu_test: Roll: -15.89 | Pitch: -2.74[0m
+6710886400.000000
+[0;32mI (4892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (5022) mpu_test: Roll: -16.18 | Pitch: -2.94[0m
+6710886400.000000
+[0;32mI (5022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (5142) stepper: Stepper direction set to 0[0m
+[0;31mE (5142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (5162) mpu_test: Roll: -16.35 | Pitch: -2.87[0m
+6710886400.000000
+[0;32mI (5162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (5292) mpu_test: Roll: -16.38 | Pitch: -2.95[0m
+6710886400.000000
+[0;32mI (5292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (5422) mpu_test: Roll: -16.66 | Pitch: -2.88[0m
+6710886400.000000
+[0;32mI (5422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (5542) stepper: Stepper direction set to 0[0m
+[0;31mE (5542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (5562) mpu_test: Roll: -16.96 | Pitch: -2.95[0m
+6710886400.000000
+[0;32mI (5562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (5692) mpu_test: Roll: -17.51 | Pitch: -3.02[0m
+6710886400.000000
+[0;32mI (5692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (5822) mpu_test: Roll: -17.64 | Pitch: -3.08[0m
+6710886400.000000
+[0;32mI (5822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (5942) stepper: Stepper direction set to 0[0m
+[0;31mE (5942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (5962) mpu_test: Roll: -17.79 | Pitch: -3.16[0m
+6710886400.000000
+[0;32mI (5962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6092) mpu_test: Roll: -17.80 | Pitch: -3.22[0m
+6710886400.000000
+[0;32mI (6092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6222) mpu_test: Roll: -18.04 | Pitch: -3.40[0m
+6710886400.000000
+[0;32mI (6222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (6342) stepper: Stepper direction set to 0[0m
+[0;31mE (6342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (6362) mpu_test: Roll: -18.33 | Pitch: -3.34[0m
+6710886400.000000
+[0;32mI (6362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6492) mpu_test: Roll: -18.30 | Pitch: -3.27[0m
+6710886400.000000
+[0;32mI (6492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6622) mpu_test: Roll: -18.55 | Pitch: -3.34[0m
+6710886400.000000
+[0;32mI (6622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (6742) stepper: Stepper direction set to 0[0m
+[0;31mE (6742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (6762) mpu_test: Roll: -18.95 | Pitch: -3.41[0m
+6710886400.000000
+[0;32mI (6762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6892) mpu_test: Roll: -19.18 | Pitch: -3.47[0m
+6710886400.000000
+[0;32mI (6892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (7022) mpu_test: Roll: -19.14 | Pitch: -3.41[0m
+6710886400.000000
+[0;32mI (7022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (7142) stepper: Stepper direction set to 0[0m
+[0;31mE (7142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (7162) mpu_test: Roll: -20.32 | Pitch: -3.48[0m
+6710886400.000000
+[0;32mI (7162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (7292) mpu_test: Roll: -20.55 | Pitch: -3.02[0m
+6710886400.000000
+[0;32mI (7292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (7422) mpu_test: Roll: -20.55 | Pitch: -2.53[0m
+6710886400.000000
+[0;32mI (7422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (7542) stepper: Stepper direction set to 0[0m
+[0;31mE (7542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (7562) mpu_test: Roll: -20.37 | Pitch: -1.89[0m
+6710886400.000000
+[0;32mI (7562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (7692) mpu_test: Roll: -20.29 | Pitch: -1.80[0m
+6710886400.000000
+[0;32mI (7692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (7822) mpu_test: Roll: -19.61 | Pitch: 0.00[0m
+6710886400.000000
+[0;32mI (7822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (7942) stepper: Stepper direction set to 0[0m
+[0;31mE (7942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (7962) mpu_test: Roll: -18.39 | Pitch: -1.80[0m
+6710886400.000000
+[0;32mI (7962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (8092) mpu_test: Roll: -19.53 | Pitch: -1.95[0m
+6710886400.000000
+[0;32mI (8092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (8222) mpu_test: Roll: -19.74 | Pitch: -2.03[0m
+6710886400.000000
+[0;32mI (8222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (8342) stepper: Stepper direction set to 0[0m
+[0;31mE (8342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (8362) mpu_test: Roll: -20.24 | Pitch: -2.52[0m
+6710886400.000000
+[0;32mI (8362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (8492) mpu_test: Roll: -20.44 | Pitch: -3.53[0m
+6710886400.000000
+[0;32mI (8492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (8622) mpu_test: Roll: -20.12 | Pitch: -3.22[0m
+6710886400.000000
+[0;32mI (8622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (8742) stepper: Stepper direction set to 0[0m
+[0;31mE (8742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (8762) mpu_test: Roll: -20.47 | Pitch: -3.15[0m
+6710886400.000000
+[0;32mI (8762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (8892) mpu_test: Roll: -20.94 | Pitch: -2.93[0m
+6710886400.000000
+[0;32mI (8892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (9022) mpu_test: Roll: -21.11 | Pitch: -3.00[0m
+6710886400.000000
+[0;32mI (9022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (9142) stepper: Stepper direction set to 0[0m
+[0;31mE (9142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (9162) mpu_test: Roll: -21.20 | Pitch: -2.94[0m
+6710886400.000000
+[0;32mI (9162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (9292) mpu_test: Roll: -21.01 | Pitch: -3.01[0m
+6710886400.000000
+[0;32mI (9292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (9422) mpu_test: Roll: -21.20 | Pitch: -2.93[0m
+6710886400.000000
+[0;32mI (9422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (9542) stepper: Stepper direction set to 0[0m
+[0;31mE (9542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (9562) mpu_test: Roll: -21.40 | Pitch: -2.99[0m
+6710886400.000000
+[0;32mI (9562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (9692) mpu_test: Roll: -21.84 | Pitch: -3.05[0m
+6710886400.000000
+[0;32mI (9692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (9822) mpu_test: Roll: -21.76 | Pitch: -2.97[0m
+6710886400.000000
+[0;32mI (9822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (9942) stepper: Stepper direction set to 0[0m
+[0;31mE (9942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (9962) mpu_test: Roll: -21.42 | Pitch: -2.77[0m
+6710886400.000000
+[0;32mI (9962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10092) mpu_test: Roll: -21.21 | Pitch: -3.49[0m
+6710886400.000000
+[0;32mI (10092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10222) mpu_test: Roll: -21.28 | Pitch: -3.71[0m
+6710886400.000000
+[0;32mI (10222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (10342) stepper: Stepper direction set to 0[0m
+[0;31mE (10342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (10362) mpu_test: Roll: -21.08 | Pitch: -3.63[0m
+6710886400.000000
+[0;32mI (10362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10492) mpu_test: Roll: -20.77 | Pitch: -3.29[0m
+6710886400.000000
+[0;32mI (10492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10622) mpu_test: Roll: -21.96 | Pitch: -3.37[0m
+6710886400.000000
+[0;32mI (10622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (10742) stepper: Stepper direction set to 0[0m
+[0;31mE (10742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (10762) mpu_test: Roll: -27.70 | Pitch: -3.58[0m
+6710886400.000000
+[0;32mI (10762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10892) mpu_test: Roll: -38.90 | Pitch: 1.46[0m
+6710886400.000000
+[0;32mI (10892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (11022) mpu_test: Roll: -48.00 | Pitch: 1.48[0m
+6710886400.000000
+[0;32mI (11022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (11142) stepper: Stepper direction set to 0[0m
+[0;31mE (11142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (11162) mpu_test: Roll: -45.19 | Pitch: -21.39[0m
+6710886400.000000
+[0;32mI (11162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (11292) mpu_test: Roll: -46.29 | Pitch: -20.78[0m
+6710886400.000000
+[0;32mI (11292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (11422) mpu_test: Roll: -43.81 | Pitch: -22.90[0m
+6710886400.000000
+[0;32mI (11422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (11542) stepper: Stepper direction set to 0[0m
+[0;31mE (11542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (11562) mpu_test: Roll: -43.37 | Pitch: -22.96[0m
+6710886400.000000
+[0;32mI (11562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (11692) mpu_test: Roll: -42.01 | Pitch: -23.04[0m
+6710886400.000000
+[0;32mI (11692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (11822) mpu_test: Roll: -41.84 | Pitch: -22.82[0m
+6710886400.000000
+[0;32mI (11822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (11942) stepper: Stepper direction set to 0[0m
+[0;31mE (11942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (11962) mpu_test: Roll: -42.65 | Pitch: -27.91[0m
+6710886400.000000
+[0;32mI (11962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (12092) mpu_test: Roll: -42.22 | Pitch: -28.51[0m
+6710886400.000000
+[0;32mI (12092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (12222) mpu_test: Roll: -41.77 | Pitch: -28.35[0m
+6710886400.000000
+[0;32mI (12222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (12342) stepper: Stepper direction set to 0[0m
+[0;31mE (12342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (12362) mpu_test: Roll: -41.91 | Pitch: -28.35[0m
+6710886400.000000
+[0;32mI (12362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (12492) mpu_test: Roll: -41.63 | Pitch: -28.18[0m
+6710886400.000000
+[0;32mI (12492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (12622) mpu_test: Roll: -40.98 | Pitch: -28.03[0m
+6710886400.000000
+[0;32mI (12622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (12742) stepper: Stepper direction set to 0[0m
+[0;31mE (12742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (12762) mpu_test: Roll: -42.18 | Pitch: -27.48[0m
+6710886400.000000
+[0;32mI (12762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (12892) mpu_test: Roll: -41.90 | Pitch: -27.61[0m
+6710886400.000000
+[0;32mI (12892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (13022) mpu_test: Roll: -42.26 | Pitch: -27.59[0m
+6710886400.000000
+[0;32mI (13022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (13142) stepper: Stepper direction set to 0[0m
+[0;31mE (13142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (13162) mpu_test: Roll: -41.98 | Pitch: -27.58[0m
+6710886400.000000
+[0;32mI (13162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (13292) mpu_test: Roll: -42.11 | Pitch: -27.44[0m
+6710886400.000000
+[0;32mI (13292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (13422) mpu_test: Roll: -41.82 | Pitch: -27.30[0m
+6710886400.000000
+[0;32mI (13422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (13542) stepper: Stepper direction set to 0[0m
+[0;31mE (13542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (13562) mpu_test: Roll: -42.23 | Pitch: -27.29[0m
+6710886400.000000
+[0;32mI (13562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (13692) mpu_test: Roll: -42.20 | Pitch: -27.15[0m
+6710886400.000000
+[0;32mI (13692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (13822) mpu_test: Roll: -41.92 | Pitch: -27.02[0m
+6710886400.000000
+[0;32mI (13822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (13942) stepper: Stepper direction set to 0[0m
+[0;31mE (13942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (13962) mpu_test: Roll: -41.51 | Pitch: -27.02[0m
+6710886400.000000
+[0;32mI (13962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (14092) mpu_test: Roll: -41.24 | Pitch: -27.14[0m
+6710886400.000000
+[0;32mI (14092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (14222) mpu_test: Roll: -41.37 | Pitch: -27.26[0m
+6710886400.000000
+[0;32mI (14222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (14342) stepper: Stepper direction set to 0[0m
+[0;31mE (14342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (14362) mpu_test: Roll: -41.65 | Pitch: -27.26[0m
+6710886400.000000
+[0;32mI (14362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (14492) mpu_test: Roll: -41.65 | Pitch: -27.10[0m
+6710886400.000000
+[0;32mI (14492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (14622) mpu_test: Roll: -40.73 | Pitch: -27.61[0m
+6710886400.000000
+[0;32mI (14622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (14742) stepper: Stepper direction set to 0[0m
+[0;31mE (14742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (14762) mpu_test: Roll: -40.63 | Pitch: -27.61[0m
+6710886400.000000
+[0;32mI (14762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (14892) mpu_test: Roll: -39.99 | Pitch: -28.01[0m
+6710886400.000000
+[0;32mI (14892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (15022) mpu_test: Roll: -39.22 | Pitch: -28.40[0m
+6710886400.000000
+[0;32mI (15022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (15142) stepper: Stepper direction set to 0[0m
+[0;31mE (15142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (15162) mpu_test: Roll: -38.43 | Pitch: -29.23[0m
+6710886400.000000
+[0;32mI (15162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (15292) mpu_test: Roll: -38.04 | Pitch: -29.35[0m
+6710886400.000000
+[0;32mI (15292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (15422) mpu_test: Roll: -37.91 | Pitch: -29.49[0m
+6710886400.000000
+[0;32mI (15422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (15542) stepper: Stepper direction set to 0[0m
+[0;31mE (15542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;31mE (15552) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+6710886400.000000
+[0;32mI (15552) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (15692) mpu_test: Roll: -38.87 | Pitch: -29.36[0m
+6710886400.000000
+[0;32mI (15692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (15822) mpu_test: Roll: -38.60 | Pitch: -29.48[0m
+6710886400.000000
+[0;32mI (15822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (15942) stepper: Stepper direction set to 0[0m
+[0;31mE (15942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (15962) mpu_test: Roll: -39.17 | Pitch: -28.95[0m
+6710886400.000000
+[0;32mI (15962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16092) mpu_test: Roll: -39.17 | Pitch: -27.90[0m
+6710886400.000000
+[0;32mI (16092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16222) mpu_test: Roll: -39.17 | Pitch: -27.90[0m
+6710886400.000000
+[0;32mI (16222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (16342) stepper: Stepper direction set to 0[0m
+[0;31mE (16342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (16362) mpu_test: Roll: -38.26 | Pitch: -28.30[0m
+6710886400.000000
+[0;32mI (16362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16492) mpu_test: Roll: -39.78 | Pitch: -25.49[0m
+6710886400.000000
+[0;32mI (16492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16622) mpu_test: Roll: -39.64 | Pitch: -25.28[0m
+6710886400.000000
+[0;32mI (16622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (16742) stepper: Stepper direction set to 0[0m
+[0;31mE (16742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (16762) mpu_test: Roll: -40.37 | Pitch: -25.85[0m
+6710886400.000000
+[0;32mI (16762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16892) mpu_test: Roll: -41.31 | Pitch: -25.77[0m
+6710886400.000000
+[0;32mI (16892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (17022) mpu_test: Roll: -42.22 | Pitch: -25.43[0m
+6710886400.000000
+[0;32mI (17022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (17142) stepper: Stepper direction set to 0[0m
+[0;31mE (17142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (17162) mpu_test: Roll: -42.40 | Pitch: -25.61[0m
+6710886400.000000
+[0;32mI (17162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (17292) mpu_test: Roll: -41.61 | Pitch: -25.92[0m
+6710886400.000000
+[0;32mI (17292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (17422) mpu_test: Roll: -42.69 | Pitch: -25.07[0m
+6710886400.000000
+[0;32mI (17422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (17542) stepper: Stepper direction set to 0[0m
+[0;31mE (17542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (17562) mpu_test: Roll: -44.38 | Pitch: -24.41[0m
+6710886400.000000
+[0;32mI (17562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (17692) mpu_test: Roll: -45.08 | Pitch: -23.89[0m
+6710886400.000000
+[0;32mI (17692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (17822) mpu_test: Roll: -44.46 | Pitch: -24.56[0m
+6710886400.000000
+[0;32mI (17822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (17942) stepper: Stepper direction set to 0[0m
+[0;31mE (17942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (17962) mpu_test: Roll: -44.25 | Pitch: -24.57[0m
+6710886400.000000
+[0;32mI (17962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (18092) mpu_test: Roll: -44.66 | Pitch: -24.99[0m
+6710886400.000000
+[0;32mI (18092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (18222) mpu_test: Roll: -44.29 | Pitch: -25.00[0m
+6710886400.000000
+[0;32mI (18222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (18342) stepper: Stepper direction set to 0[0m
+[0;31mE (18342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (18362) mpu_test: Roll: -44.22 | Pitch: -24.88[0m
+6710886400.000000
+[0;32mI (18362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (18492) mpu_test: Roll: -44.23 | Pitch: -24.75[0m
+6710886400.000000
+[0;32mI (18492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (18622) mpu_test: Roll: -44.25 | Pitch: -24.64[0m
+6710886400.000000
+[0;32mI (18622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (18742) stepper: Stepper direction set to 0[0m
+[0;31mE (18742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (18762) mpu_test: Roll: -44.17 | Pitch: -24.53[0m
+6710886400.000000
+[0;32mI (18762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (18892) mpu_test: Roll: -44.23 | Pitch: -24.56[0m
+6710886400.000000
+[0;32mI (18892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (19022) mpu_test: Roll: -44.00 | Pitch: -24.58[0m
+6710886400.000000
+[0;32mI (19022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (19142) stepper: Stepper direction set to 0[0m
+[0;31mE (19142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (19162) mpu_test: Roll: -43.79 | Pitch: -24.59[0m
+6710886400.000000
+[0;32mI (19162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (19292) mpu_test: Roll: -43.85 | Pitch: -24.48[0m
+6710886400.000000
+[0;32mI (19292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (19422) mpu_test: Roll: -43.74 | Pitch: -24.49[0m
+6710886400.000000
+[0;32mI (19422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (19542) stepper: Stepper direction set to 0[0m
+[0;31mE (19542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (19562) mpu_test: Roll: -44.23 | Pitch: -23.96[0m
+6710886400.000000
+[0;32mI (19562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (19692) mpu_test: Roll: -49.95 | Pitch: -21.06[0m
+6710886400.000000
+[0;32mI (19692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (19822) mpu_test: Roll: -50.72 | Pitch: -18.91[0m
+6710886400.000000
+[0;32mI (19822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (19942) stepper: Stepper direction set to 0[0m
+[0;31mE (19942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (19962) mpu_test: Roll: -54.30 | Pitch: -15.12[0m
+6710886400.000000
+[0;32mI (19962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (20092) mpu_test: Roll: -61.82 | Pitch: -10.12[0m
+6710886400.000000
+[0;32mI (20092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (20222) mpu_test: Roll: -64.18 | Pitch: -8.32[0m
+6710886400.000000
+[0;32mI (20222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (20342) stepper: Stepper direction set to 0[0m
+[0;31mE (20342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (20362) mpu_test: Roll: -64.58 | Pitch: -6.25[0m
+6710886400.000000
+[0;32mI (20362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (20492) mpu_test: Roll: -64.24 | Pitch: -5.46[0m
+6710886400.000000
+[0;32mI (20492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (20622) mpu_test: Roll: -55.69 | Pitch: -13.06[0m
+6710886400.000000
+[0;32mI (20622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (20742) stepper: Stepper direction set to 0[0m
+[0;31mE (20742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (20762) mpu_test: Roll: -46.51 | Pitch: -17.85[0m
+6710886400.000000
+[0;32mI (20762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (20892) mpu_test: Roll: -51.69 | Pitch: -16.87[0m
+6710886400.000000
+[0;32mI (20892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21022) mpu_test: Roll: -44.79 | Pitch: -22.49[0m
+6710886400.000000
+[0;32mI (21022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (21142) stepper: Stepper direction set to 0[0m
+[0;31mE (21142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (21162) mpu_test: Roll: -31.89 | Pitch: -26.74[0m
+6710886400.000000
+[0;32mI (21162) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21292) mpu_test: Roll: -14.66 | Pitch: -32.81[0m
+6710886400.000000
+[0;32mI (21292) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (21422) mpu_test: Roll: -14.55 | Pitch: -31.50[0m
+6710886400.000000
+[0;32mI (21422) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (21542) stepper: Stepper direction set to 0[0m
+[0;31mE (21542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (21562) mpu_test: Roll: -38.20 | Pitch: 1.82[0m
+6710886400.000000
+[0;32mI (21562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21692) mpu_test: Roll: -44.21 | Pitch: 9.73[0m
+6710886400.000000
+[0;32mI (21692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21822) mpu_test: Roll: -44.21 | Pitch: 11.53[0m
+6710886400.000000
+[0;32mI (21822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (21942) stepper: Stepper direction set to 0[0m
+[0;31mE (21942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;31mE (21942) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+6710886400.000000
+[0;32mI (21952) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (22092) mpu_test: Roll: -43.69 | Pitch: 11.60[0m
+6710886400.000000
+[0;32mI (22092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (22222) mpu_test: Roll: -41.70 | Pitch: 9.24[0m
+6710886400.000000
+[0;32mI (22222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (22342) stepper: Stepper direction set to 0[0m
+[0;31mE (22342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (22362) mpu_test: Roll: -43.33 | Pitch: 9.57[0m
+6710886400.000000
+[0;32mI (22362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (22492) mpu_test: Roll: -41.36 | Pitch: 7.53[0m
+6710886400.000000
+[0;32mI (22492) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (22622) mpu_test: Roll: -41.30 | Pitch: 8.55[0m
+6710886400.000000
+[0;32mI (22622) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (22742) stepper: Stepper direction set to 0[0m
+[0;31mE (22742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (23142) stepper: Stepper direction set to 0[0m
+[0;31mE (23142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+Main loop running
+[0;32mI (23542) stepper: Stepper direction set to 0[0m
+[0;31mE (23542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+[0;31mE (23742) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+6710886400.000000
+[0;32mI (23742) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (23872) mpu_test: Roll: -71.50 | Pitch: 54.05[0m
+42949672960.000000
+[0;32mI (23872) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (23942) stepper: Stepper direction set to 0[0m
+[0;31mE (23942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (24002) mpu_test: Roll: -69.29 | Pitch: 56.72[0m
+6710886400.000000
+[0;32mI (24002) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (24132) mpu_test: Roll: -62.70 | Pitch: 61.06[0m
+6710886400.000000
+[0;32mI (24132) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (24262) mpu_test: Roll: -62.01 | Pitch: 62.71[0m
+6710886400.000000
+[0;32mI (24262) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (24342) stepper: Stepper direction set to 0[0m
+[0;31mE (24342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (24392) mpu_test: Roll: -62.78 | Pitch: 59.75[0m
+6710886400.000000
+[0;32mI (24392) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (24522) mpu_test: Roll: -62.51 | Pitch: 58.56[0m
+6710886400.000000
+[0;32mI (24522) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (24652) mpu_test: Roll: -61.21 | Pitch: 57.23[0m
+6710886400.000000
+[0;32mI (24652) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (24742) stepper: Stepper direction set to 0[0m
+[0;31mE (24742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (24782) mpu_test: Roll: -58.09 | Pitch: 56.74[0m
+6710886400.000000
+[0;32mI (24782) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (24912) mpu_test: Roll: -57.10 | Pitch: 57.43[0m
+6710886400.000000
+[0;32mI (24912) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (25042) mpu_test: Roll: -56.65 | Pitch: 56.02[0m
+6710886400.000000
+[0;32mI (25042) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (25142) stepper: Stepper direction set to 0[0m
+[0;31mE (25142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (25172) mpu_test: Roll: -56.34 | Pitch: 54.75[0m
+6710886400.000000
+[0;32mI (25172) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (25302) mpu_test: Roll: -55.75 | Pitch: 54.03[0m
+6710886400.000000
+[0;32mI (25302) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+control loop started[0;32mI (25432) mpu_test: Roll: -55.44 | Pitch: 52.92[0m
+6710886400.000000
+[0;32mI (25432) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (25542) stepper: Stepper direction set to 0[0m
+[0;31mE (25542) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (25562) mpu_test: Roll: -55.28 | Pitch: 53.39[0m
+6710886400.000000
+[0;32mI (25562) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (25692) mpu_test: Roll: -54.74 | Pitch: 52.96[0m
+6710886400.000000
+[0;32mI (25692) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (25822) mpu_test: Roll: -54.31 | Pitch: 51.93[0m
+6710886400.000000
+[0;32mI (25822) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (25942) stepper: Stepper direction set to 0[0m
+[0;31mE (25942) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (25962) mpu_test: Roll: -64.22 | Pitch: 47.65[0m
+6710886400.000000
+[0;32mI (25962) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (26092) mpu_test: Roll: -72.66 | Pitch: 56.32[0m
+6710886400.000000
+[0;32mI (26092) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (26222) mpu_test: Roll: -39.50 | Pitch: 33.13[0m
+6710886400.000000
+[0;32mI (26222) stepper: Stepper direction set to 0[0m
+control task loop
+Main loop running
+[0;32mI (26342) stepper: Stepper direction set to 0[0m
+[0;31mE (26342) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (26362) mpu_test: Roll: -37.10 | Pitch: 42.89[0m
+6710886400.000000
+[0;32mI (26362) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;31mE (26482) i2cdev: Could not read from device [0x68 at 1]: -1 (ESP_FAIL)[0m
+[0;31mE (26482) mpu_6050: Failed to read MPU![0m
+6710886400.000000
+[0;32mI (26482) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;31mE (26612) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+[0;31mE (26612) mpu_6050: Failed to read MPU![0m
+6710886400.000000
+[0;32mI (26612) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (26742) stepper: Stepper direction set to 0[0m
+[0;31mE (26742) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (26762) mpu_test: Roll: -37.72 | Pitch: 40.69[0m
+6710886400.000000
+[0;32mI (26762) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (26892) mpu_test: Roll: -38.30 | Pitch: 39.33[0m
+6710886400.000000
+[0;32mI (26892) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (27022) mpu_test: Roll: -30.82 | Pitch: 30.94[0m
+6710886400.000000
+[0;32mI (27022) stepper: Stepper direction set to 0[0m
+control task loop
+[0;32mI (27142) stepper: Stepper direction set to 0[0m
+[0;31mE (27142) ledc: requested frequency 2147483647 and duty resolution 12 can not be achieved, try reducing freq_hz or duty_resolution. div_param=0[0m
+control loop started[0;32mI (27162) mpu_test: Roll: -33.12 | Pitch: 31.22[0m
+6710886400.000000
+[0;32mI (27162) stepper: Stepper direction set to 0[0m
+control task loop

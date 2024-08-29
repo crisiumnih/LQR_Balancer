@@ -1,0 +1,1281 @@
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6a8h ( 46760) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b6d0 vaddr=3ffb0000 size=023dch (  9180) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001dab4 vaddr=40080000 size=02564h (  9572) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19828h (104488) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=00039850 vaddr=40082564 size=0bcd4h ( 48340) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  255074f88...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (245) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB2D90 len 0002D270 (180 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+motro ok
+[0;32mI (341) stepper: Stepper direction set to 0[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+control loop started[0;32mI (461) mpu_test: Roll: -0.16 | Pitch: 3.58[0m
+-0.036967
+control task loop
+control loop started[0;32mI (591) mpu_test: Roll: -0.66 | Pitch: 3.58[0m
+1599.962891
+control task loop
+control loop started[0;32mI (721) mpu_test: Roll: -1.16 | Pitch: 3.45[0m
+1439.964233
+[0;32mI (741) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (851) mpu_test: Roll: -1.64 | Pitch: 3.33[0m
+1759.965454
+control task loop
+control loop started[0;32mI (981) mpu_test: Roll: -2.13 | Pitch: 3.33[0m
+1599.965454
+control task loop
+control loop started[0;32mI (1111) mpu_test: Roll: -2.61 | Pitch: 3.72[0m
+1599.961426
+control task loop
+[0;32mI (1141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (1241) mpu_test: Roll: -3.08 | Pitch: 2.95[0m
+1599.969482
+control task loop
+Main loop running
+control loop started[0;32mI (1371) mpu_test: Roll: -3.54 | Pitch: 2.96[0m
+1439.969360
+control task loop
+control loop started[0;32mI (1501) mpu_test: Roll: -4.00 | Pitch: 2.84[0m
+1599.970581
+control task loop
+[0;32mI (1541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (1631) mpu_test: Roll: -4.44 | Pitch: 3.38[0m
+1599.964966
+control task loop
+control loop started[0;32mI (1761) mpu_test: Roll: -4.88 | Pitch: 3.13[0m
+1599.967529
+control task loop
+control loop started[0;32mI (1891) mpu_test: Roll: -5.32 | Pitch: 3.02[0m
+1599.968750
+control task loop
+[0;32mI (1941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (2021) mpu_test: Roll: -5.74 | Pitch: 3.42[0m
+1599.964600
+control task loop
+control loop started[0;32mI (2151) mpu_test: Roll: -6.16 | Pitch: 3.70[0m
+1599.961548
+control task loop
+control loop started[0;32mI (2281) mpu_test: Roll: -6.56 | Pitch: 4.12[0m
+1599.957275
+control task loop
+Main loop running
+[0;32mI (2341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (2411) mpu_test: Roll: -6.97 | Pitch: 3.88[0m
+1439.959717
+control task loop
+control loop started[0;32mI (2541) mpu_test: Roll: -7.36 | Pitch: 3.40[0m
+1599.964722
+control task loop
+control loop started[0;32mI (2671) mpu_test: Roll: -7.75 | Pitch: 0.98[0m
+1599.989746
+control task loop
+[0;32mI (2741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (2801) mpu_test: Roll: -8.13 | Pitch: 0.90[0m
+1599.990601
+control task loop
+control loop started[0;32mI (2931) mpu_test: Roll: -8.51 | Pitch: 0.83[0m
+1439.991455
+control task loop
+control loop started[0;32mI (3061) mpu_test: Roll: -8.88 | Pitch: 0.74[0m
+1599.992310
+control task loop
+[0;32mI (3141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (3191) mpu_test: Roll: -9.13 | Pitch: 0.66[0m
+1599.993164
+control task loop
+control loop started[0;32mI (3321) mpu_test: Roll: -8.95 | Pitch: -0.08[0m
+1600.000854
+Main loop running
+control task loop
+control loop started[0;32mI (3451) mpu_test: Roll: -8.25 | Pitch: -2.01[0m
+1600.020752
+control task loop
+[0;32mI (3541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (3581) mpu_test: Roll: -7.80 | Pitch: -3.16[0m
+1600.032715
+control task loop
+control loop started[0;32mI (3711) mpu_test: Roll: -7.36 | Pitch: -4.41[0m
+1440.045654
+control task loop
+control loop started[0;32mI (3841) mpu_test: Roll: -4.34 | Pitch: -9.40[0m
+1600.097412
+control task loop
+[0;32mI (3941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (3971) mpu_test: Roll: -1.97 | Pitch: -13.47[0m
+1600.139648
+control task loop
+control loop started[0;32mI (4101) mpu_test: Roll: -1.78 | Pitch: -14.30[0m
+1600.148315
+control task loop
+control loop started[0;32mI (4231) mpu_test: Roll: -0.69 | Pitch: -16.56[0m
+1600.171631
+control task loop
+Main loop running
+[0;32mI (4341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (4361) mpu_test: Roll: -0.62 | Pitch: -17.14[0m
+1600.177612
+control task loop
+control loop started[0;32mI (4491) mpu_test: Roll: 0.35 | Pitch: -19.27[0m
+1440.199829
+control task loop
+control loop started[0;32mI (4621) mpu_test: Roll: 1.08 | Pitch: -21.15[0m
+1600.219238
+control task loop
+[0;32mI (4741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (4751) mpu_test: Roll: 1.43 | Pitch: -22.25[0m
+1440.230713
+control task loop
+control loop started[0;32mI (4881) mpu_test: Roll: 1.91 | Pitch: -23.62[0m
+1600.244873
+control task loop
+control loop started[0;32mI (5011) mpu_test: Roll: 2.26 | Pitch: -24.72[0m
+1600.256226
+control task loop
+control loop started[0;32mI (5141) stepper: Stepper direction set to 0[0m
+[0;32mI (5141) mpu_test: Roll: 2.49 | Pitch: -25.70[0m
+1600.266357
+control task loop
+control loop started[0;32mI (5271) mpu_test: Roll: 2.20 | Pitch: -25.76[0m
+1600.267090
+control task loop
+Main loop running
+control loop started[0;32mI (5401) mpu_test: Roll: 2.31 | Pitch: -26.47[0m
+1600.274414
+control task loop
+control loop started[0;32mI (5531) mpu_test: Roll: 1.91 | Pitch: -26.40[0m
+1600.273682
+[0;32mI (5541) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (5661) mpu_test: Roll: 2.15 | Pitch: -27.36[0m
+1600.283691
+control task loop
+control loop started[0;32mI (5791) mpu_test: Roll: 2.25 | Pitch: -28.06[0m
+1440.290894
+control task loop
+control loop started[0;32mI (5921) mpu_test: Roll: 2.24 | Pitch: -28.51[0m
+1440.295532
+[0;32mI (5941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (6051) mpu_test: Roll: 2.24 | Pitch: -28.83[0m
+1440.298828
+control task loop
+control loop started[0;32mI (6181) mpu_test: Roll: 2.11 | Pitch: -29.01[0m
+1600.300781
+control task loop
+control loop started[0;32mI (6311) mpu_test: Roll: 2.63 | Pitch: -30.35[0m
+1440.314575
+control task loop
+Main loop running
+[0;32mI (6341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (6441) mpu_test: Roll: 2.38 | Pitch: -30.27[0m
+1600.313843
+control task loop
+control loop started[0;32mI (6571) mpu_test: Roll: 2.14 | Pitch: -30.19[0m
+1600.312988
+control task loop
+control loop started[0;32mI (6701) mpu_test: Roll: 2.02 | Pitch: -30.51[0m
+1600.316284
+control task loop
+[0;32mI (6741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (6831) mpu_test: Roll: 2.04 | Pitch: -30.81[0m
+1600.319336
+control task loop
+control loop started[0;32mI (6961) mpu_test: Roll: 1.68 | Pitch: -30.60[0m
+1600.317139
+control task loop
+control loop started[0;32mI (7091) mpu_test: Roll: 1.45 | Pitch: -30.64[0m
+1600.317627
+control task loop
+[0;32mI (7141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (7221) mpu_test: Roll: 1.47 | Pitch: -31.07[0m
+1440.322144
+control task loop
+Main loop running
+control loop started[0;32mI (7351) mpu_test: Roll: 1.50 | Pitch: -31.37[0m
+1600.325195
+control task loop
+control loop started[0;32mI (7481) mpu_test: Roll: 1.41 | Pitch: -31.54[0m
+1600.327026
+control task loop
+[0;32mI (7541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (7611) mpu_test: Roll: 1.31 | Pitch: -31.72[0m
+1600.328857
+control task loop
+control loop started[0;32mI (7741) mpu_test: Roll: 0.57 | Pitch: -31.00[0m
+1600.321289
+control task loop
+control loop started[0;32mI (7871) mpu_test: Roll: -0.28 | Pitch: -30.01[0m
+1760.311157
+control task loop
+[0;32mI (7941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (8001) mpu_test: Roll: -0.48 | Pitch: -29.93[0m
+1600.310303
+control task loop
+control loop started[0;32mI (8131) mpu_test: Roll: -0.94 | Pitch: -29.60[0m
+1600.306885
+control task loop
+control loop started[0;32mI (8261) mpu_test: Roll: -1.52 | Pitch: -29.14[0m
+1600.302124
+control task loop
+Main loop running
+[0;32mI (8341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (8391) mpu_test: Roll: -1.71 | Pitch: -29.07[0m
+1440.301392
+control task loop
+control loop started[0;32mI (8521) mpu_test: Roll: -1.39 | Pitch: -30.14[0m
+1600.312500
+control task loop
+control loop started[0;32mI (8651) mpu_test: Roll: -1.58 | Pitch: -30.19[0m
+1600.312988
+control task loop
+[0;32mI (8741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (8781) mpu_test: Roll: -0.34 | Pitch: -32.44[0m
+1600.336304
+control task loop
+control loop started[0;32mI (8911) mpu_test: Roll: -1.68 | Pitch: -30.68[0m
+1600.318115
+control task loop
+control loop started[0;32mI (9041) mpu_test: Roll: -6.87 | Pitch: -23.38[0m
+1600.242310
+control task loop
+[0;32mI (9141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (9171) mpu_test: Roll: -12.30 | Pitch: -15.69[0m
+1440.162720
+control task loop
+control loop started[0;32mI (9301) mpu_test: Roll: -16.57 | Pitch: -9.81[0m
+1600.101685
+control task loop
+Main loop running
+control loop started[0;32mI (9431) mpu_test: Roll: -22.12 | Pitch: -2.26[0m
+1440.023438
+control task loop
+[0;32mI (9541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (9561) mpu_test: Roll: -22.26 | Pitch: -2.30[0m
+1600.023804
+control task loop
+control loop started[0;32mI (9691) mpu_test: Roll: -22.41 | Pitch: -2.33[0m
+1600.024048
+control task loop
+control loop started[0;32mI (9821) mpu_test: Roll: -22.55 | Pitch: -2.36[0m
+1600.024414
+control task loop
+[0;32mI (9941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (9951) mpu_test: Roll: -22.69 | Pitch: -2.39[0m
+1600.024780
+control task loop
+control loop started[0;32mI (10081) mpu_test: Roll: -22.82 | Pitch: -2.42[0m
+1600.025024
+control task loop
+control loop started[0;32mI (10211) mpu_test: Roll: -22.96 | Pitch: -2.44[0m
+1600.025269
+control task loop
+control loop startedMain loop running
+[0;32mI (10341) stepper: Stepper direction set to 0[0m
+[0;32mI (10341) mpu_test: Roll: -23.09 | Pitch: -2.46[0m
+1600.025513
+control task loop
+control loop started[0;32mI (10471) mpu_test: Roll: -23.22 | Pitch: -2.49[0m
+1440.025879
+control task loop
+control loop started[0;32mI (10601) mpu_test: Roll: -23.35 | Pitch: -2.52[0m
+1760.026123
+control task loop
+control loop started[0;32mI (10731) mpu_test: Roll: -23.48 | Pitch: -2.55[0m
+1600.026367
+[0;32mI (10741) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10861) mpu_test: Roll: -23.60 | Pitch: -2.57[0m
+1600.026611
+control task loop
+control loop started[0;32mI (10991) mpu_test: Roll: -23.72 | Pitch: -2.59[0m
+1440.026855
+control task loop
+control loop started[0;32mI (11121) mpu_test: Roll: -23.84 | Pitch: -2.62[0m
+1600.027100
+[0;32mI (11141) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (11251) mpu_test: Roll: -23.96 | Pitch: -2.64[0m
+1440.027344
+control task loop
+Main loop running
+control loop started[0;32mI (11381) mpu_test: Roll: -24.08 | Pitch: -2.66[0m
+1600.027588
+control task loop
+control loop started[0;32mI (11511) mpu_test: Roll: -24.19 | Pitch: -2.69[0m
+1440.027832
+control task loop
+[0;32mI (11541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (11641) mpu_test: Roll: -24.30 | Pitch: -2.71[0m
+1600.028076
+control task loop
+control loop started[0;32mI (11771) mpu_test: Roll: -24.41 | Pitch: -2.73[0m
+1440.028320
+control task loop
+control loop started[0;32mI (11901) mpu_test: Roll: -24.52 | Pitch: -2.75[0m
+1760.028564
+control task loop
+[0;32mI (11941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12031) mpu_test: Roll: -24.63 | Pitch: -2.77[0m
+1600.028687
+control task loop
+control loop started[0;32mI (12161) mpu_test: Roll: -24.73 | Pitch: -2.79[0m
+1600.028931
+control task loop
+control loop started[0;32mI (12291) mpu_test: Roll: -24.83 | Pitch: -2.81[0m
+1440.029175
+control task loop
+Main loop running
+[0;32mI (12341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12421) mpu_test: Roll: -24.94 | Pitch: -2.84[0m
+1760.029419
+control task loop
+control loop started[0;32mI (12551) mpu_test: Roll: -25.04 | Pitch: -2.86[0m
+1440.029663
+control task loop
+control loop started[0;32mI (12681) mpu_test: Roll: -25.13 | Pitch: -2.88[0m
+1600.029907
+control task loop
+[0;32mI (12741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12811) mpu_test: Roll: -25.23 | Pitch: -2.90[0m
+1600.030029
+control task loop
+control loop started[0;32mI (12941) mpu_test: Roll: -25.05 | Pitch: -2.87[0m
+1600.029785
+control task loop
+control loop started[0;32mI (13071) mpu_test: Roll: -25.15 | Pitch: -2.89[0m
+1600.029907
+control task loop
+[0;32mI (13141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (13201) mpu_test: Roll: -25.25 | Pitch: -2.91[0m
+1600.030151
+control task loop
+control loop started[0;32mI (13331) mpu_test: Roll: -25.34 | Pitch: -2.80[0m
+1440.028931
+Main loop running
+control task loop
+control loop started[0;32mI (13461) mpu_test: Roll: -25.43 | Pitch: -2.82[0m
+1760.029175
+control task loop
+[0;32mI (13541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (13591) mpu_test: Roll: -25.53 | Pitch: -2.84[0m
+1440.029419
+control task loop
+control loop started[0;32mI (13721) mpu_test: Roll: -25.49 | Pitch: -0.83[0m
+1600.008667
+control task loop
+control loop started[0;32mI (13851) mpu_test: Roll: -25.57 | Pitch: 3.78[0m
+1439.960815
+control task loop
+[0;32mI (13941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (13981) mpu_test: Roll: -25.53 | Pitch: 7.46[0m
+1599.922607
+control task loop
+control loop started[0;32mI (14111) mpu_test: Roll: -25.62 | Pitch: 10.89[0m
+1599.887085
+control task loop
+control loop started[0;32mI (14241) mpu_test: Roll: -25.70 | Pitch: 14.81[0m
+1599.846436
+control task loop
+Main loop running
+[0;32mI (14341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (14371) mpu_test: Roll: -25.79 | Pitch: 18.19[0m
+1439.811401
+control task loop
+control loop started[0;32mI (14501) mpu_test: Roll: -25.87 | Pitch: 20.02[0m
+1599.792480
+control task loop
+control loop started[0;32mI (14631) mpu_test: Roll: -25.97 | Pitch: 22.11[0m
+1759.770752
+control task loop
+[0;32mI (14741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (14761) mpu_test: Roll: -26.05 | Pitch: 25.88[0m
+1599.731689
+control task loop
+control loop started[0;32mI (14891) mpu_test: Roll: -25.88 | Pitch: 28.13[0m
+1439.708374
+control task loop
+control loop started[0;32mI (15021) mpu_test: Roll: -25.71 | Pitch: 29.85[0m
+1599.690552
+control task loop
+[0;32mI (15141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (15151) mpu_test: Roll: -25.80 | Pitch: 29.89[0m
+1599.690186
+control task loop
+control loop started[0;32mI (15281) mpu_test: Roll: -25.88 | Pitch: 31.22[0m
+1599.676270
+control task loop
+Main loop running
+control loop started[0;32mI (15411) mpu_test: Roll: -25.83 | Pitch: 31.53[0m
+1599.673096
+control task loop
+control loop started[0;32mI (15541) stepper: Stepper direction set to 0[0m
+[0;32mI (15541) mpu_test: Roll: -25.92 | Pitch: 31.71[0m
+1599.671265
+control task loop
+control loop started[0;32mI (15671) mpu_test: Roll: -25.87 | Pitch: 32.54[0m
+1599.662720
+control task loop
+control loop started[0;32mI (15801) mpu_test: Roll: -25.96 | Pitch: 33.23[0m
+1599.655518
+control task loop
+control loop started[0;32mI (15931) mpu_test: Roll: -26.04 | Pitch: 33.41[0m
+1599.653687
+[0;32mI (15941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16061) mpu_test: Roll: -26.12 | Pitch: 34.25[0m
+1599.645020
+control task loop
+control loop started[0;32mI (16191) mpu_test: Roll: -26.21 | Pitch: 34.31[0m
+1599.644287
+control task loop
+control loop started[0;32mI (16321) mpu_test: Roll: -26.16 | Pitch: 34.51[0m
+1599.642212
+Main loop running
+[0;32mI (16341) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (16451) mpu_test: Roll: -26.24 | Pitch: 35.09[0m
+1599.636230
+control task loop
+control loop started[0;32mI (16581) mpu_test: Roll: -26.32 | Pitch: 35.14[0m
+1599.635620
+control task loop
+control loop started[0;32mI (16711) mpu_test: Roll: -26.40 | Pitch: 35.33[0m
+1599.633789
+control task loop
+[0;32mI (16741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (16841) mpu_test: Roll: -26.48 | Pitch: 35.28[0m
+1599.634277
+control task loop
+control loop started[0;32mI (16971) mpu_test: Roll: -26.55 | Pitch: 35.21[0m
+1599.634888
+control task loop
+control loop started[0;32mI (17101) mpu_test: Roll: -26.62 | Pitch: 35.02[0m
+1599.636963
+control task loop
+[0;32mI (17141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (17231) mpu_test: Roll: -26.70 | Pitch: 34.82[0m
+1759.639038
+control task loop
+Main loop running
+control loop started[0;32mI (17361) mpu_test: Roll: -26.77 | Pitch: 34.10[0m
+1599.646484
+control task loop
+control loop started[0;32mI (17491) mpu_test: Roll: -26.85 | Pitch: 33.39[0m
+1439.653809
+control task loop
+[0;32mI (17541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (17621) mpu_test: Roll: -26.91 | Pitch: 32.69[0m
+1599.661133
+control task loop
+control loop started[0;32mI (17751) mpu_test: Roll: -26.98 | Pitch: 32.62[0m
+1759.661865
+control task loop
+control loop started[0;32mI (17881) mpu_test: Roll: -27.05 | Pitch: 33.07[0m
+1599.657104
+control task loop
+[0;32mI (17941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (18011) mpu_test: Roll: -27.12 | Pitch: 33.01[0m
+1599.657715
+control task loop
+control loop started[0;32mI (18141) mpu_test: Roll: -27.18 | Pitch: 33.09[0m
+1599.656982
+control task loop
+control loop started[0;32mI (18271) mpu_test: Roll: -27.25 | Pitch: 33.43[0m
+1439.653442
+control task loop
+Main loop running
+[0;32mI (18341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (18401) mpu_test: Roll: -27.31 | Pitch: 33.49[0m
+1599.652710
+control task loop
+control loop started[0;32mI (18531) mpu_test: Roll: -27.37 | Pitch: 33.57[0m
+1599.651978
+control task loop
+control loop started[0;32mI (18661) mpu_test: Roll: -27.43 | Pitch: 33.12[0m
+1599.656616
+control task loop
+[0;32mI (18741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (18791) mpu_test: Roll: -27.50 | Pitch: 32.18[0m
+1599.666382
+control task loop
+control loop started[0;32mI (18921) mpu_test: Roll: -27.55 | Pitch: 24.80[0m
+1599.742920
+control task loop
+control loop started[0;32mI (19051) mpu_test: Roll: -28.50 | Pitch: -3.79[0m
+1600.039307
+control task loop
+[0;32mI (19141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (19181) mpu_test: Roll: -28.54 | Pitch: -10.16[0m
+1600.105347
+control task loop
+control loop started[0;32mI (19311) mpu_test: Roll: -28.58 | Pitch: -19.25[0m
+1440.199585
+control task loop
+Main loop running
+control loop started[0;32mI (19441) mpu_test: Roll: -28.62 | Pitch: -18.86[0m
+1600.195557
+control task loop
+[0;32mI (19541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (19571) mpu_test: Roll: -28.53 | Pitch: -7.69[0m
+1440.079712
+control task loop
+control loop started[0;32mI (19701) mpu_test: Roll: -28.45 | Pitch: 5.82[0m
+1599.939575
+control task loop
+control loop started[0;32mI (19831) mpu_test: Roll: -28.49 | Pitch: 12.87[0m
+1439.866577
+control task loop
+[0;32mI (19941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (19961) mpu_test: Roll: -28.53 | Pitch: 13.73[0m
+1599.857666
+control task loop
+control loop started[0;32mI (20091) mpu_test: Roll: -28.57 | Pitch: 8.94[0m
+1599.907349
+control task loop
+control loop started[0;32mI (20221) mpu_test: Roll: -28.62 | Pitch: 4.36[0m
+1599.954712
+control task loop
+Main loop running
+[0;32mI (20341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (20351) mpu_test: Roll: -28.65 | Pitch: 0.32[0m
+1599.996704
+control task loop
+control loop started[0;32mI (20481) mpu_test: Roll: -29.06 | Pitch: -5.53[0m
+1600.057373
+control task loop
+control loop started[0;32mI (20611) mpu_test: Roll: -29.10 | Pitch: -7.25[0m
+1600.075195
+control task loop
+control loop started[0;32mI (20741) stepper: Stepper direction set to 0[0m
+[0;32mI (20741) mpu_test: Roll: -29.27 | Pitch: -11.60[0m
+1600.120239
+control task loop
+control loop started[0;32mI (20871) mpu_test: Roll: -29.30 | Pitch: -12.31[0m
+1600.127686
+control task loop
+control loop started[0;32mI (21001) mpu_test: Roll: -29.33 | Pitch: -5.28[0m
+1600.054688
+control task loop
+control loop started[0;32mI (21131) mpu_test: Roll: -29.10 | Pitch: 3.55[0m
+1599.963257
+[0;32mI (21141) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21261) mpu_test: Roll: -29.12 | Pitch: 11.60[0m
+1599.879761
+control task loop
+Main loop running
+control loop started[0;32mI (21391) mpu_test: Roll: -29.15 | Pitch: 13.19[0m
+1759.863281
+control task loop
+control loop started[0;32mI (21521) mpu_test: Roll: -29.18 | Pitch: 7.45[0m
+1599.922729
+[0;32mI (21541) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (21651) mpu_test: Roll: -29.21 | Pitch: 2.59[0m
+1599.973145
+control task loop
+control loop started[0;32mI (21781) mpu_test: Roll: -29.24 | Pitch: -1.47[0m
+1600.015259
+control task loop
+control loop started[0;32mI (21911) mpu_test: Roll: -29.27 | Pitch: -6.32[0m
+1600.065552
+control task loop
+[0;32mI (21941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (22041) mpu_test: Roll: -29.29 | Pitch: -10.99[0m
+1600.114014
+control task loop
+control loop started[0;32mI (22171) mpu_test: Roll: -29.32 | Pitch: -11.07[0m
+1600.114746
+control task loop
+control loop started[0;32mI (22301) mpu_test: Roll: -29.34 | Pitch: -10.37[0m
+1600.107544
+control task loop
+Main loop running
+[0;32mI (22341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (22431) mpu_test: Roll: -29.24 | Pitch: -3.62[0m
+1440.037476
+control task loop
+control loop started[0;32mI (22561) mpu_test: Roll: -29.26 | Pitch: 5.58[0m
+1599.942139
+control task loop
+control loop started[0;32mI (22691) mpu_test: Roll: -29.29 | Pitch: 12.72[0m
+1599.868164
+control task loop
+[0;32mI (22741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (22821) mpu_test: Roll: -29.32 | Pitch: 7.25[0m
+1599.924927
+control task loop
+control loop started[0;32mI (22951) mpu_test: Roll: -29.87 | Pitch: -6.71[0m
+1440.069580
+control task loop
+control loop started[0;32mI (23081) mpu_test: Roll: -29.76 | Pitch: -3.25[0m
+1600.033691
+control task loop
+[0;32mI (23141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (23211) mpu_test: Roll: -29.28 | Pitch: 13.84[0m
+1599.856445
+control task loop
+control loop startedMain loop running
+[0;32mI (23341) mpu_test: Roll: -29.44 | Pitch: 5.12[0m
+1599.947021
+control task loop
+control loop started[0;32mI (23471) mpu_test: Roll: -29.59 | Pitch: -4.24[0m
+1440.043945
+control task loop
+[0;32mI (23541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (23601) mpu_test: Roll: -29.35 | Pitch: 9.37[0m
+1759.902832
+control task loop
+control loop started[0;32mI (23731) mpu_test: Roll: -29.38 | Pitch: 11.50[0m
+1439.880737
+control task loop
+control loop started[0;32mI (23861) mpu_test: Roll: -29.53 | Pitch: -4.54[0m
+1600.047119
+control task loop
+[0;32mI (23941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (23991) mpu_test: Roll: -29.17 | Pitch: 5.47[0m
+1599.943237
+control task loop
+control loop started[0;32mI (24121) mpu_test: Roll: -29.21 | Pitch: 13.28[0m
+1599.862305
+control task loop
+control loop started[0;32mI (24251) mpu_test: Roll: -29.36 | Pitch: -2.93[0m
+1760.030396
+control task loop
+Main loop running
+[0;32mI (24341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (24381) mpu_test: Roll: -29.26 | Pitch: -2.55[0m
+1760.026489
+control task loop
+control loop started[0;32mI (24511) mpu_test: Roll: -29.29 | Pitch: 16.68[0m
+1599.827148
+control task loop
+control loop started[0;32mI (24641) mpu_test: Roll: -29.32 | Pitch: 11.71[0m
+1599.878540
+control task loop
+[0;32mI (24741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (24771) mpu_test: Roll: -29.47 | Pitch: 0.71[0m
+1439.992676
+control task loop
+control loop started[0;32mI (24901) mpu_test: Roll: -29.37 | Pitch: 3.86[0m
+1599.959961
+control task loop
+control loop started[0;32mI (25031) mpu_test: Roll: -29.13 | Pitch: 19.14[0m
+1599.801636
+control task loop
+[0;32mI (25141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (25161) mpu_test: Roll: -29.29 | Pitch: 3.10[0m
+1599.967773
+control task loop
+control loop started[0;32mI (25291) mpu_test: Roll: -29.32 | Pitch: 6.70[0m
+1439.930542
+control task loop
+Main loop running
+control loop started[0;32mI (25421) mpu_test: Roll: -29.21 | Pitch: 21.26[0m
+1599.779541
+control task loop
+[0;32mI (25541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (25551) mpu_test: Roll: -29.24 | Pitch: 17.06[0m
+1439.823242
+control task loop
+control loop started[0;32mI (25681) mpu_test: Roll: -29.39 | Pitch: 5.03[0m
+1599.947876
+control task loop
+control loop started[0;32mI (25811) mpu_test: Roll: -29.28 | Pitch: 4.13[0m
+1439.957153
+control task loop
+control loop started[0;32mI (25941) stepper: Stepper direction set to 0[0m
+[0;32mI (25941) mpu_test: Roll: -29.31 | Pitch: -0.27[0m
+1760.002808
+control task loop
+control loop started[0;32mI (26071) mpu_test: Roll: -29.62 | Pitch: -9.57[0m
+1600.099121
+control task loop
+control loop started[0;32mI (26201) mpu_test: Roll: -29.64 | Pitch: -9.48[0m
+1440.098267
+control task loop
+control loop started[0;32mI (26331) mpu_test: Roll: -29.66 | Pitch: -9.39[0m
+1600.097412
+Main loop running
+[0;32mI (26341) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (26461) mpu_test: Roll: -29.68 | Pitch: -8.41[0m
+1760.087158
+control task loop
+control loop started[0;32mI (26591) mpu_test: Roll: -29.70 | Pitch: -8.97[0m
+1600.093018
+control task loop
+control loop started[0;32mI (26721) mpu_test: Roll: -29.72 | Pitch: -8.89[0m
+1600.092163
+[0;32mI (26741) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (26851) mpu_test: Roll: -29.73 | Pitch: -8.81[0m
+1600.091309
+control task loop
+control loop started[0;32mI (26981) mpu_test: Roll: -29.75 | Pitch: -8.60[0m
+1600.089233
+control task loop
+control loop started[0;32mI (27111) mpu_test: Roll: -29.77 | Pitch: -8.53[0m
+1600.088379
+control task loop
+[0;32mI (27141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (27241) mpu_test: Roll: -29.79 | Pitch: -8.46[0m
+1760.087646
+control task loop
+Main loop running
+control loop started[0;32mI (27371) mpu_test: Roll: -29.81 | Pitch: -8.39[0m
+1600.086914
+control task loop
+control loop started[0;32mI (27501) mpu_test: Roll: -29.82 | Pitch: -8.31[0m
+1600.086182
+control task loop
+[0;32mI (27541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (27631) mpu_test: Roll: -29.84 | Pitch: -8.25[0m
+1600.085571
+control task loop
+control loop started[0;32mI (27761) mpu_test: Roll: -29.86 | Pitch: -8.18[0m
+1600.084717
+control task loop
+control loop started[0;32mI (27891) mpu_test: Roll: -29.88 | Pitch: -8.12[0m
+1440.084106
+control task loop
+[0;32mI (27941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (28021) mpu_test: Roll: -29.89 | Pitch: -8.05[0m
+1600.083496
+control task loop
+control loop started[0;32mI (28151) mpu_test: Roll: -29.91 | Pitch: -7.99[0m
+1600.082764
+control task loop
+control loop started[0;32mI (28281) mpu_test: Roll: -29.93 | Pitch: -7.93[0m
+1600.082275
+control task loop
+Main loop running
+[0;32mI (28341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (28411) mpu_test: Roll: -29.94 | Pitch: -7.87[0m
+1600.081543
+control task loop
+control loop started[0;32mI (28541) mpu_test: Roll: -29.57 | Pitch: -8.32[0m
+1600.086182
+control task loop
+control loop started[0;32mI (28671) mpu_test: Roll: -28.70 | Pitch: -9.68[0m
+1600.100342
+control task loop
+[0;32mI (28741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (28801) mpu_test: Roll: -27.06 | Pitch: -12.06[0m
+1600.125000
+control task loop
+control loop started[0;32mI (28931) mpu_test: Roll: -24.62 | Pitch: -15.59[0m
+1600.161621
+control task loop
+control loop started[0;32mI (29061) mpu_test: Roll: -22.34 | Pitch: -18.99[0m
+1600.196899
+control task loop
+[0;32mI (29141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (29191) mpu_test: Roll: -19.52 | Pitch: -23.17[0m
+1440.240234
+control task loop
+control loop started[0;32mI (29321) mpu_test: Roll: -18.62 | Pitch: -24.40[0m
+1600.252930
+Main loop running
+control task loop
+control loop started[0;32mI (29451) mpu_test: Roll: -16.82 | Pitch: -26.91[0m
+1440.279053
+control task loop
+[0;32mI (29541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (29581) mpu_test: Roll: -16.19 | Pitch: -27.87[0m
+1600.288940
+control task loop
+control loop started[0;32mI (29711) mpu_test: Roll: -18.40 | Pitch: -24.72[0m
+1600.256348
+control task loop
+control loop started[0;32mI (29841) mpu_test: Roll: -25.77 | Pitch: -14.46[0m
+1600.149902
+control task loop
+[0;32mI (29941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (29971) mpu_test: Roll: -32.75 | Pitch: -4.96[0m
+1440.051514
+control task loop
+control loop started[0;32mI (30101) mpu_test: Roll: -32.64 | Pitch: -4.60[0m
+1600.047729
+control task loop
+control loop started[0;32mI (30231) mpu_test: Roll: -32.49 | Pitch: -1.35[0m
+1600.014038
+control task loop
+Main loop running
+[0;32mI (30341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (30361) mpu_test: Roll: -32.20 | Pitch: 4.89[0m
+1599.949341
+control task loop
+control loop started[0;32mI (30491) mpu_test: Roll: -32.05 | Pitch: 8.55[0m
+1599.911377
+control task loop
+control loop started[0;32mI (30621) mpu_test: Roll: -32.17 | Pitch: 10.80[0m
+1599.888062
+control task loop
+[0;32mI (30741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (30751) mpu_test: Roll: -32.02 | Pitch: 14.73[0m
+1759.847290
+control task loop
+control loop started[0;32mI (30881) mpu_test: Roll: -32.01 | Pitch: 15.81[0m
+1599.836060
+control task loop
+control loop started[0;32mI (31011) mpu_test: Roll: -31.99 | Pitch: 15.60[0m
+1599.838257
+control task loop
+control loop started[0;32mI (31141) stepper: Stepper direction set to 0[0m
+[0;32mI (31141) mpu_test: Roll: -31.97 | Pitch: 14.50[0m
+1599.849609
+control task loop
+control loop started[0;32mI (31271) mpu_test: Roll: -31.97 | Pitch: 12.11[0m
+1599.874390
+control task loop
+Main loop running
+control loop started[0;32mI (31401) mpu_test: Roll: -31.95 | Pitch: 8.43[0m
+1599.912598
+control task loop
+control loop started[0;32mI (31531) mpu_test: Roll: -31.92 | Pitch: 0.75[0m
+1599.992188
+[0;32mI (31541) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (31661) mpu_test: Roll: -31.91 | Pitch: -4.53[0m
+1600.046875
+control task loop
+control loop started[0;32mI (31791) mpu_test: Roll: -31.89 | Pitch: -4.60[0m
+1600.047607
+control task loop
+control loop started[0;32mI (31921) mpu_test: Roll: -31.88 | Pitch: -4.54[0m
+1760.047119
+[0;32mI (31941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (32051) mpu_test: Roll: -31.86 | Pitch: -4.36[0m
+1600.045166
+control task loop
+control loop started[0;32mI (32181) mpu_test: Roll: -31.85 | Pitch: -4.31[0m
+1760.044678
+control task loop
+control loop started[0;32mI (32311) mpu_test: Roll: -31.83 | Pitch: -4.26[0m
+1440.044189
+control task loop
+Main loop running
+[0;32mI (32341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (32441) mpu_test: Roll: -31.82 | Pitch: -4.21[0m
+1600.043579
+control task loop
+control loop started[0;32mI (32571) mpu_test: Roll: -31.80 | Pitch: -4.16[0m
+1440.043091
+control task loop
+control loop started[0;32mI (32701) mpu_test: Roll: -31.79 | Pitch: -4.11[0m
+1600.042603
+control task loop
+[0;32mI (32741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (32831) mpu_test: Roll: -31.78 | Pitch: -4.06[0m
+1440.042114
+control task loop
+control loop started[0;32mI (32961) mpu_test: Roll: -31.76 | Pitch: -4.02[0m
+1760.041626
+control task loop
+control loop started[0;32mI (33091) mpu_test: Roll: -31.75 | Pitch: -3.97[0m
+1440.041138
+control task loop
+[0;32mI (33141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (33221) mpu_test: Roll: -31.74 | Pitch: -3.92[0m
+1760.040649
+control task loop
+Main loop running
+control loop started[0;32mI (33351) mpu_test: Roll: -31.73 | Pitch: -3.88[0m
+1600.040283
+control task loop
+control loop started[0;32mI (33481) mpu_test: Roll: -31.72 | Pitch: -3.84[0m
+1760.039795
+control task loop
+[0;32mI (33541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (33611) mpu_test: Roll: -31.71 | Pitch: -3.80[0m
+1440.039307
+control task loop
+control loop started[0;32mI (33741) mpu_test: Roll: -31.69 | Pitch: -3.75[0m
+1600.038940
+control task loop
+control loop started[0;32mI (33871) mpu_test: Roll: -31.68 | Pitch: -3.59[0m
+1600.037231
+control task loop
+[0;32mI (33941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (34001) mpu_test: Roll: -31.67 | Pitch: -3.55[0m
+1760.036865
+control task loop
+control loop started[0;32mI (34131) mpu_test: Roll: -31.66 | Pitch: -3.52[0m
+1600.036499
+control task loop
+control loop started[0;32mI (34261) mpu_test: Roll: -31.66 | Pitch: -3.48[0m
+1760.036133
+control task loop
+Main loop running
+[0;32mI (34341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (34391) mpu_test: Roll: -31.64 | Pitch: -3.44[0m
+1440.035645
+control task loop
+control loop started[0;32mI (34521) mpu_test: Roll: -31.64 | Pitch: -3.40[0m
+1760.035278
+control task loop
+control loop started[0;32mI (34651) mpu_test: Roll: -31.63 | Pitch: -3.37[0m
+1600.034912
+control task loop
+[0;32mI (34741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (34781) mpu_test: Roll: -31.62 | Pitch: -3.33[0m
+1760.034546
+control task loop
+control loop started[0;32mI (34911) mpu_test: Roll: -31.61 | Pitch: -3.30[0m
+1600.034180
+control task loop
+control loop started[0;32mI (35041) mpu_test: Roll: -31.60 | Pitch: -3.27[0m
+1600.033813
+control task loop
+[0;32mI (35141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (35171) mpu_test: Roll: -31.59 | Pitch: -3.23[0m
+1440.033447
+control task loop
+control loop started[0;32mI (35301) mpu_test: Roll: -31.58 | Pitch: -3.20[0m
+1600.033081
+control task loop
+Main loop running
+control loop started[0;32mI (35431) mpu_test: Roll: -31.57 | Pitch: -3.16[0m
+1440.032837
+control task loop
+[0;32mI (35541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (35561) mpu_test: Roll: -31.56 | Pitch: -3.13[0m
+1760.032471
+control task loop
+control loop started[0;32mI (35691) mpu_test: Roll: -31.55 | Pitch: -3.10[0m
+1440.032227
+control task loop
+control loop started[0;32mI (35821) mpu_test: Roll: -31.55 | Pitch: -3.07[0m
+1760.031860
+control task loop
+[0;32mI (35941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (35951) mpu_test: Roll: -31.54 | Pitch: -3.04[0m
+1440.031616
+control task loop
+control loop started[0;32mI (36081) mpu_test: Roll: -31.53 | Pitch: -3.02[0m
+1600.031250
+control task loop
+control loop started[0;32mI (36211) mpu_test: Roll: -31.52 | Pitch: -2.86[0m
+1440.029663
+control task loop
+control loop startedMain loop running
+[0;32mI (36341) stepper: Stepper direction set to 0[0m
+[0;32mI (36341) mpu_test: Roll: -31.51 | Pitch: -2.83[0m
+1760.029419
+control task loop
+control loop started[0;32mI (36471) mpu_test: Roll: -31.51 | Pitch: -2.81[0m
+1440.029053
+control task loop
+control loop started[0;32mI (36601) mpu_test: Roll: -31.50 | Pitch: -2.78[0m
+1600.028809
+control task loop
+control loop started[0;32mI (36731) mpu_test: Roll: -31.49 | Pitch: -2.76[0m
+1600.028687
+[0;32mI (36741) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (36861) mpu_test: Roll: -31.48 | Pitch: -2.74[0m
+1600.028442
+control task loop
+control loop started[0;32mI (36991) mpu_test: Roll: -31.46 | Pitch: -2.71[0m
+1440.028076
+control task loop
+control loop started[0;32mI (37121) mpu_test: Roll: -31.46 | Pitch: -2.69[0m
+1760.027954
+[0;32mI (37141) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (37251) mpu_test: Roll: -31.45 | Pitch: -2.67[0m
+1600.027710
+control task loop
+Main loop running
+control loop started[0;32mI (37381) mpu_test: Roll: -31.44 | Pitch: -2.64[0m
+1760.027466
+control task loop
+control loop started[0;32mI (37511) mpu_test: Roll: -31.44 | Pitch: -2.62[0m
+1600.027222
+control task loop
+[0;32mI (37541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (37641) mpu_test: Roll: -31.43 | Pitch: -2.60[0m
+1600.026978
+control task loop
+control loop started[0;32mI (37771) mpu_test: Roll: -31.42 | Pitch: -2.58[0m
+1440.026733
+control task loop
+control loop started[0;32mI (37901) mpu_test: Roll: -31.42 | Pitch: -2.56[0m
+1600.026489
+control task loop
+[0;32mI (37941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (38031) mpu_test: Roll: -31.41 | Pitch: -2.54[0m
+1440.026245
+control task loop
+control loop started[0;32mI (38161) mpu_test: Roll: -31.40 | Pitch: -2.52[0m
+1600.026123
+control task loop
+control loop started[0;32mI (38291) mpu_test: Roll: -31.39 | Pitch: -2.50[0m
+1440.025879
+control task loop
+Main loop running
+[0;32mI (38341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (38421) mpu_test: Roll: -31.39 | Pitch: -2.48[0m
+1760.025635
+control task loop
+control loop started[0;32mI (38551) mpu_test: Roll: -31.38 | Pitch: -2.46[0m
+1440.025513
+control task loop
+control loop started[0;32mI (38681) mpu_test: Roll: -31.37 | Pitch: -2.44[0m
+1760.025269
+control task loop
+[0;32mI (38741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (38811) mpu_test: Roll: -31.36 | Pitch: -2.42[0m
+1600.025024
+control task loop
+control loop started[0;32mI (38941) mpu_test: Roll: -31.36 | Pitch: -2.40[0m
+1760.024902
+control task loop
+control loop started[0;32mI (39071) mpu_test: Roll: -31.35 | Pitch: -2.38[0m
+1600.024658
+control task loop
+[0;32mI (39141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (39201) mpu_test: Roll: -31.35 | Pitch: -2.36[0m
+1600.024536
+control task loop
+control loop started[0;32mI (39331) mpu_test: Roll: -31.34 | Pitch: -2.34[0m
+1600.024292
+Main loop running
+control task loop
+control loop started[0;32mI (39461) mpu_test: Roll: -31.34 | Pitch: -2.33[0m
+1760.024170
+control task loop
+[0;32mI (39541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (39591) mpu_test: Roll: -31.33 | Pitch: -2.32[0m
+1440.024048
+control task loop
+control loop started[0;32mI (39721) mpu_test: Roll: -31.33 | Pitch: -2.30[0m
+1760.023926
+control task loop
+control loop started[0;32mI (39851) mpu_test: Roll: -31.32 | Pitch: -2.29[0m
+1440.023682
+control task loop
+[0;32mI (39941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (39981) mpu_test: Roll: -31.31 | Pitch: -2.27[0m
+1600.023438
+control task loop
+control loop started[0;32mI (40111) mpu_test: Roll: -31.30 | Pitch: -2.25[0m
+1600.023315
+control task loop
+control loop started[0;32mI (40241) mpu_test: Roll: -31.30 | Pitch: -2.23[0m
+1600.023193
+control task loop
+Main loop running
+[0;32mI (40341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (40371) mpu_test: Roll: -31.29 | Pitch: -2.22[0m
+1600.023071
+control task loop
+control loop started[0;32mI (40501) mpu_test: Roll: -31.28 | Pitch: -2.21[0m
+1760.022827
+control task loop
+control loop started[0;32mI (40631) mpu_test: Roll: -31.28 | Pitch: -2.19[0m
+1600.022705
+control task loop
+[0;32mI (40741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (40761) mpu_test: Roll: -31.27 | Pitch: -2.18[0m
+1600.022583
+control task loop
+control loop started[0;32mI (40891) mpu_test: Roll: -31.27 | Pitch: -2.17[0m
+1600.022461
+control task loop
+control loop started[0;32mI (41021) mpu_test: Roll: -31.26 | Pitch: -2.16[0m
+1600.022339
+control task loop
+[0;32mI (41141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (41151) mpu_test: Roll: -31.26 | Pitch: -2.15[0m
+1440.022217
+control task loop
+control loop started[0;32mI (41281) mpu_test: Roll: -31.26 | Pitch: -2.13[0m
+1600.022095
+control task loop
+Main loop running
+control loop started[0;32mI (41411) mpu_test: Roll: -31.25 | Pitch: -2.12[0m
+1440.021973
+control task loop
+control loop started[0;32mI (41541) stepper: Stepper direction set to 0[0m
+[0;32mI (41541) mpu_test: Roll: -31.25 | Pitch: -2.11[0m
+1760.021851
+control task loop
+control loop started[0;32mI (41671) mpu_test: Roll: -31.24 | Pitch: -2.10[0m
+1600.021729
+control task loop
+control loop started[0;32mI (41801) mpu_test: Roll: -31.23 | Pitch: -1.97[0m
+1600.020386
+control task loop
+control loop started[0;32mI (41931) mpu_test: Roll: -31.23 | Pitch: -1.95[0m
+1440.020264
+[0;32mI (41941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (42061) mpu_test: Roll: -31.22 | Pitch: -1.94[0m
+1600.020142
+control task loop
+control loop started[0;32mI (42191) mpu_test: Roll: -31.22 | Pitch: -1.92[0m
+1440.019897
+control task loop
+control loop started[0;32mI (42321) mpu_test: Roll: -31.23 | Pitch: -1.94[0m
+1760.020142
+Main loop running
+[0;32mI (42341) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (42451) mpu_test: Roll: -31.22 | Pitch: -2.05[0m
+1440.021240
+control task loop
+control loop started[0;32mI (42581) mpu_test: Roll: -31.22 | Pitch: -2.05[0m
+1600.021240
+control task loop
+control loop started[0;32mI (42711) mpu_test: Roll: -31.22 | Pitch: -2.04[0m
+1600.021118
+control task loop
+[0;32mI (42741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (42841) mpu_test: Roll: -30.72 | Pitch: 3.32[0m
+1599.965576
+control task loop
+control loop started[0;32mI (42971) mpu_test: Roll: -31.63 | Pitch: -13.34[0m
+1600.138306
+control task loop
+control loop started[0;32mI (43101) mpu_test: Roll: -29.85 | Pitch: -10.53[0m
+1600.109131
+control task loop
+[0;32mI (43141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (43231) mpu_test: Roll: -31.33 | Pitch: -2.91[0m
+1600.030151
+control task loop
+Main loop running
+control loop started[0;32mI (43361) mpu_test: Roll: -8.65 | Pitch: -1.84[0m
+1600.019043
+control task loop
+control loop started[0;32mI (43491) mpu_test: Roll: -9.43 | Pitch: -0.70[0m
+1600.007202
+control task loop
+[0;32mI (43541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (43621) mpu_test: Roll: -8.75 | Pitch: -0.54[0m
+1600.005615
+control task loop
+control loop started[0;32mI (43751) mpu_test: Roll: -9.13 | Pitch: -0.23[0m
+1600.002441
+control task loop
+control loop started[0;32mI (43881) mpu_test: Roll: -9.49 | Pitch: -0.22[0m
+1600.002319
+control task loop
+[0;32mI (43941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (44011) mpu_test: Roll: -9.84 | Pitch: -0.21[0m
+1600.002197
+control task loop
+control loop started[0;32mI (44141) mpu_test: Roll: -10.18 | Pitch: -0.20[0m
+1600.002075
+control task loop
+control loop started[0;32mI (44271) mpu_test: Roll: -10.51 | Pitch: -0.19[0m
+1440.001953
+control task loop
+Main loop running
+[0;32mI (44341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (44401) mpu_test: Roll: -10.84 | Pitch: -0.19[0m
+1600.001953
+control task loop
+control loop started[0;32mI (44531) mpu_test: Roll: -11.16 | Pitch: -0.18[0m
+1440.001831
+control task loop
+control loop started[0;32mI (44661) mpu_test: Roll: -11.48 | Pitch: -0.05[0m
+1600.000488
+control task loop
+[0;32mI (44741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (44791) mpu_test: Roll: -11.79 | Pitch: -0.04[0m
+1600.000366
+control task loop
+control loop started[0;32mI (44921) mpu_test: Roll: -12.10 | Pitch: -0.03[0m
+1600.000366
+control task loop
+control loop started[0;32mI (45051) mpu_test: Roll: -12.40 | Pitch: -0.03[0m
+1440.000244
+control task loop
+[0;32mI (45141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (45181) mpu_test: Roll: -12.70 | Pitch: -0.02[0m
+1600.000244
+control task loop
+control loop started[0;32mI (45311) mpu_test: Roll: -13.00 | Pitch: -0.01[0m
+1440.000122
+control task loop
+Main loop running
+control loop started[0;32mI (45441) mpu_test: Roll: -13.29 | Pitch: -0.01[0m
+1600.000122
+control task loop
+[0;32mI (45541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (45571) mpu_test: Roll: -13.57 | Pitch: -0.00[0m
+1440.000000
+control task loop
+control loop started[0;32mI (45701) mpu_test: Roll: -13.84 | Pitch: -0.00[0m
+1600.000000
+control task loop
+control loop started[0;32mI (45831) mpu_test: Roll: -14.12 | Pitch: -0.00[0m
+1600.000000
+control task loop
+[0;32mI (45941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (45961) mpu_test: Roll: -14.39 | Pitch: 0.01[0m
+1440.000000
+control task loop
+control loop started[0;32mI (46091) mpu_test: Roll: -14.65 | Pitch: 0.00[0m
+1600.000000
+control task loop

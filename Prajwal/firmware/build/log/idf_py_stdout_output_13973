@@ -1,0 +1,325 @@
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Aug 21 2024 18:25:34[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (38) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (43) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (52) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (61) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (68) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (83) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (95) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b6a8h ( 46760) map[0m
+[0;32mI (120) esp_image: segment 1: paddr=0001b6d0 vaddr=3ffb0000 size=023dch (  9180) load[0m
+[0;32mI (123) esp_image: segment 2: paddr=0001dab4 vaddr=40080000 size=02564h (  9572) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=19828h (104488) map[0m
+[0;32mI (170) esp_image: segment 4: paddr=00039850 vaddr=40082564 size=0bcd4h ( 48340) load[0m
+[0;32mI (196) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (196) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Multicore app[0m
+[0;32mI (216) cpu_start: Pro cpu start user code[0m
+[0;32mI (216) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (216) app_init: Application information:[0m
+[0;32mI (219) app_init: Project name:     firmware[0m
+[0;32mI (224) app_init: App version:      ab4d98e-dirty[0m
+[0;32mI (230) app_init: Compile time:     Aug 21 2024 18:25:29[0m
+[0;32mI (236) app_init: ELF file SHA256:  255074f88...[0m
+[0;32mI (241) app_init: ESP-IDF:          v5.3[0m
+[0;32mI (245) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (250) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (255) efuse_init: Chip rev:         v1.0[0m
+[0;32mI (260) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (267) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (273) heap_init: At 3FFB2D90 len 0002D270 (180 KiB): DRAM[0m
+[0;32mI (279) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (286) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (292) heap_init: At 4008E238 len 00011DC8 (71 KiB): IRAM[0m
+[0;32mI (300) spi_flash: detected chip: generic[0m
+[0;32mI (303) spi_flash: flash io: dio[0m
+[0;33mW (307) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (320) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (331) main_task: Started on CPU0[0m
+[0;32mI (341) main_task: Calling app_main()[0m
+motro ok
+[0;32mI (341) stepper: Stepper direction set to 0[0m
+Stepper task created
+Control task created
+Main loop running
+control task initiated
+control task loop
+control loop started[0;32mI (461) mpu_test: Roll: -17.47 | Pitch: -71.08[0m
+0.736992
+control task loop
+control loop started[0;32mI (591) mpu_test: Roll: -27.07 | Pitch: -70.19[0m
+1600.727661
+control task loop
+control loop started[0;32mI (721) mpu_test: Roll: -30.24 | Pitch: -74.17[0m
+1600.768921
+[0;32mI (741) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (851) mpu_test: Roll: -32.11 | Pitch: -69.50[0m
+1600.720581
+control task loop
+control loop started[0;32mI (1141) stepper: Stepper direction set to 0[0m
+Main loop running
+[0;32mI (1541) stepper: Stepper direction set to 0[0m
+[0;32mI (1941) stepper: Stepper direction set to 0[0m
+[0;31mE (1971) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+1606.340698
+control task loop
+control loop started[0;31mE (2091) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+6.340750
+control task loop
+control loop started[0;31mE (2211) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+1566.340698
+control task loop
+control loop started[0;31mE (2331) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+1566.340698
+Main loop running
+[0;32mI (2341) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;31mE (2451) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+1566.340698
+control task loop
+control loop started[0;31mE (2571) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+1566.340698
+control task loop
+control loop started[0;31mE (2691) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+1566.340698
+control task loop
+[0;32mI (2741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (3141) stepper: Stepper direction set to 0[0m
+Main loop running
+[0;32mI (3541) stepper: Stepper direction set to 0[0m
+[0;31mE (3811) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+[0;31mE (3811) mpu_6050: Failed to read MPU![0m
+1566.340698
+control task loop
+control loop started[0;31mE (3931) i2cdev: Could not write to device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+6.340750
+[0;32mI (3941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4061) mpu_test: Roll: -59.37 | Pitch: 387.29[0m
+1555.984985
+control task loop
+control loop started[0;32mI (4191) mpu_test: Roll: -60.37 | Pitch: 378.83[0m
+1436.072632
+control task loop
+control loop started[0;32mI (4321) mpu_test: Roll: -60.07 | Pitch: 369.62[0m
+1436.168091
+Main loop running
+[0;32mI (4341) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (4451) mpu_test: Roll: -62.33 | Pitch: 352.38[0m
+1596.346802
+control task loop
+control loop started[0;32mI (4581) mpu_test: Roll: -69.02 | Pitch: 330.03[0m
+1596.578613
+control task loop
+control loop started[0;32mI (4711) mpu_test: Roll: -71.40 | Pitch: 309.08[0m
+1596.795776
+control task loop
+[0;32mI (4741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (4841) mpu_test: Roll: -74.27 | Pitch: 292.97[0m
+1436.962769
+control task loop
+control loop started[0;32mI (4971) mpu_test: Roll: -74.32 | Pitch: 278.07[0m
+1597.117188
+control task loop
+control loop started[0;32mI (5101) mpu_test: Roll: -73.21 | Pitch: 266.89[0m
+1437.233154
+control task loop
+[0;32mI (5141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (5231) mpu_test: Roll: -73.25 | Pitch: 259.74[0m
+1597.307251
+control task loop
+Main loop running
+control loop started[0;32mI (5361) mpu_test: Roll: -73.69 | Pitch: 253.61[0m
+1597.370850
+control task loop
+control loop started[0;32mI (5491) mpu_test: Roll: -73.85 | Pitch: 247.07[0m
+1437.438599
+control task loop
+[0;32mI (5541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (5621) mpu_test: Roll: -74.03 | Pitch: 240.28[0m
+1437.509033
+control task loop
+control loop started[0;32mI (5751) mpu_test: Roll: -73.56 | Pitch: 233.47[0m
+1597.579590
+control task loop
+control loop started[0;32mI (5881) mpu_test: Roll: -73.61 | Pitch: 224.23[0m
+1437.675415
+control task loop
+[0;32mI (5941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (6011) mpu_test: Roll: -75.71 | Pitch: 221.92[0m
+1597.699341
+control task loop
+control loop started[0;32mI (6141) mpu_test: Roll: -67.28 | Pitch: 236.87[0m
+1437.544312
+control task loop
+control loop started[0;32mI (6271) mpu_test: Roll: -60.11 | Pitch: 255.06[0m
+1597.355835
+control task loop
+Main loop running
+[0;32mI (6341) stepper: Stepper direction set to 0[0m
+control loop started[0;31mE (6391) i2cdev: Could not write to device [0x68 at 1]: -1 (ESP_FAIL)[0m
+1446.340698
+control task loop
+control loop started[0;32mI (6741) stepper: Stepper direction set to 0[0m
+[0;32mI (7141) stepper: Stepper direction set to 0[0m
+Main loop running
+[0;31mE (7511) i2cdev: Could not write to device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+1566.340698
+control task loop
+[0;32mI (7541) stepper: Stepper direction set to 0[0m
+control loop started[0;31mE (7631) i2cdev: Could not read from device [0x68 at 1]: -1 (ESP_FAIL)[0m
+[0;31mE (7631) mpu_6050: Failed to read MPU![0m
+6.340750
+control task loop
+control loop started[0;32mI (7941) stepper: Stepper direction set to 0[0m
+Main loop running
+[0;32mI (8341) stepper: Stepper direction set to 0[0m
+[0;32mI (8741) stepper: Stepper direction set to 0[0m
+[0;31mE (8751) i2cdev: Could not read from device [0x68 at 1]: 263 (ESP_ERR_TIMEOUT)[0m
+1606.340698
+control task loop
+control loop started[0;32mI (8881) mpu_test: Roll: -45.45 | Pitch: 510.87[0m
+-5.296221
+control task loop
+control loop started[0;32mI (9011) mpu_test: Roll: -43.54 | Pitch: 499.89[0m
+1594.817627
+control task loop
+control loop started[0;32mI (9141) stepper: Stepper direction set to 0[0m
+[0;32mI (9141) mpu_test: Roll: -42.04 | Pitch: 489.22[0m
+1594.928345
+control task loop
+control loop started[0;32mI (9271) mpu_test: Roll: -40.62 | Pitch: 478.54[0m
+1595.038940
+control task loop
+Main loop running
+control loop started[0;32mI (9401) mpu_test: Roll: -39.29 | Pitch: 467.98[0m
+1435.148438
+control task loop
+control loop started[0;32mI (9531) mpu_test: Roll: -38.87 | Pitch: 458.50[0m
+1755.246704
+[0;32mI (9541) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (9661) mpu_test: Roll: -39.21 | Pitch: 449.84[0m
+1595.336548
+control task loop
+control loop started[0;32mI (9791) mpu_test: Roll: -38.78 | Pitch: 440.54[0m
+1595.432861
+control task loop
+control loop started[0;32mI (9921) mpu_test: Roll: -38.24 | Pitch: 431.65[0m
+1595.525146
+[0;32mI (9941) stepper: Stepper direction set to 0[0m
+control task loop
+control loop started[0;32mI (10051) mpu_test: Roll: -37.34 | Pitch: 422.74[0m
+1595.617432
+control task loop
+control loop started[0;32mI (10181) mpu_test: Roll: -36.66 | Pitch: 412.77[0m
+1595.720825
+control task loop
+control loop started[0;32mI (10311) mpu_test: Roll: -36.28 | Pitch: 404.35[0m
+1755.808105
+control task loop
+Main loop running
+[0;32mI (10341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (10441) mpu_test: Roll: -35.13 | Pitch: 395.03[0m
+1595.904663
+control task loop
+control loop started[0;32mI (10571) mpu_test: Roll: -34.64 | Pitch: 386.53[0m
+1595.992920
+control task loop
+control loop started[0;32mI (10701) mpu_test: Roll: -34.03 | Pitch: 378.54[0m
+1436.075684
+control task loop
+[0;32mI (10741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (10831) mpu_test: Roll: -33.06 | Pitch: 371.19[0m
+1596.151855
+control task loop
+control loop started[0;32mI (10961) mpu_test: Roll: -32.20 | Pitch: 363.35[0m
+1436.233154
+control task loop
+control loop started[0;32mI (11091) mpu_test: Roll: -31.76 | Pitch: 355.75[0m
+1756.312012
+control task loop
+[0;32mI (11141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (11221) mpu_test: Roll: -31.46 | Pitch: 348.68[0m
+1436.385254
+control task loop
+Main loop running
+control loop started[0;32mI (11351) mpu_test: Roll: -31.29 | Pitch: 340.07[0m
+1756.474487
+control task loop
+control loop started[0;32mI (11481) mpu_test: Roll: -30.86 | Pitch: 332.86[0m
+1596.549194
+control task loop
+[0;32mI (11541) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (11611) mpu_test: Roll: -30.35 | Pitch: 326.02[0m
+1596.620117
+control task loop
+control loop started[0;32mI (11741) mpu_test: Roll: -29.95 | Pitch: 319.29[0m
+1436.689941
+control task loop
+control loop started[0;32mI (11871) mpu_test: Roll: -29.55 | Pitch: 312.43[0m
+1596.760986
+control task loop
+[0;32mI (11941) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12001) mpu_test: Roll: -28.91 | Pitch: 305.29[0m
+1596.835083
+control task loop
+control loop started[0;32mI (12131) mpu_test: Roll: -28.52 | Pitch: 298.30[0m
+1596.907593
+control task loop
+control loop started[0;32mI (12261) mpu_test: Roll: -28.27 | Pitch: 291.92[0m
+1596.973633
+control task loop
+Main loop running
+[0;32mI (12341) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12391) mpu_test: Roll: -27.65 | Pitch: 286.65[0m
+1597.028320
+control task loop
+control loop started[0;32mI (12521) mpu_test: Roll: -27.04 | Pitch: 280.21[0m
+1437.095093
+control task loop
+control loop started[0;32mI (12651) mpu_test: Roll: -26.55 | Pitch: 274.01[0m
+1597.159302
+control task loop
+[0;32mI (12741) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (12781) mpu_test: Roll: -26.94 | Pitch: 268.58[0m
+1437.215698
+control task loop
+control loop started[0;32mI (12911) mpu_test: Roll: -26.84 | Pitch: 261.05[0m
+1597.293701
+control task loop
+control loop started[0;32mI (13041) mpu_test: Roll: -26.48 | Pitch: 255.17[0m
+1597.354614
+control task loop
+[0;32mI (13141) stepper: Stepper direction set to 0[0m
+control loop started[0;32mI (13171) mpu_test: Roll: -26.26 | Pitch: 249.01[0m
+1757.418457
+control task loop
+control loop started[0;32mI (13301) mpu_test: Roll: -26.05 | Pitch: 242.81[0m
+1597.482788
+control task loop
+Main loop running
+control loop started[0;32mI (13431) mpu_test: Roll: -25.83 | Pitch: 237.24[0m
+1757.540527
+control task loop
