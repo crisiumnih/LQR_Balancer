@@ -10,8 +10,12 @@
 #define GPIO_DIR     GPIO_NUM_27
 
 #define STEPS_PER_REVOLUTION 200
+#define ANGLE
 
 void init_stepper(void *arg);
-void set_stepper_frequency(int freq);
+void set_stepper_frequency(int freq,float pitch);
 void set_stepper_direction(int direction);
+void stepper_update();
+float get_phi_angle();
+void stepper_idle();
 #endif
