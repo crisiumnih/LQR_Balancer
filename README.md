@@ -1,7 +1,8 @@
 ## LQR Balancer
-This repository is dedicated to developing a self-balancing robot using advanced control techniques. Unlike conventional PID controllers, this project uses Linear Quadratic Regulator (LQR) to maintain stability, combining an ESP32, NEMA17 stepper motors, and A4988 motor drivers for a sophisticated control mechanism offering stability and responsiveness. 
-
-[model](./COMPONENTS/Model.png)
+This project is dedicated to developing a self-balancing robot using advanced control techniques. Unlike conventional PID controllers, this project uses Linear Quadratic Regulator (LQR) to maintain stability, combining an ESP32, NEMA17 stepper motors, and A4988 motor drivers for a sophisticated control mechanism offering stability and responsiveness. 
+<p align="center">
+  <img src="COMPONENTS/Model.png"/>
+</p>
 
 ---
 ### New to LQR?
@@ -12,10 +13,17 @@ Linear Quadratic Regulators (LQR) are optimal controllers for managing multiple 
 ### Mathematical Model
 Our bot consists of a cart with two wheels balancing an inverted pendulum. Key parameters include:
 
-[fbd](./COMPONENTS/FBD.png)
+<p>
+  <img src="COMPONENTS/FBD.png"/>
+</p>
+
  
-[ma](./COMPONENTS/math1.png)
-[me](./COMPONENTS/math2.png)
+<p align="center">
+  <img src="COMPONENTS/math1.png"/>
+</p>
+<p align="center">
+  <img src="COMPONENTS/math2.png"/>
+</p>
 
 - LQR Controller: Computes optimal control actions to minimize the cost function, balancing stability and control effort.
 - Control Signal Output: Converts control outputs into PWM signals or step commands for the motor drivers.
@@ -25,14 +33,25 @@ Our bot consists of a cart with two wheels balancing an inverted pendulum. Key p
 
 ### MATLAB Simulations
 We simulated the dynamics of a pendulum and inverted pendulum on a cart using MATLAB. This involved solving the equations of motion, designing an LQR controller, and visualizing results to refine control strategies.
+<p>
+  <img src="COMPONENTS/Base.gif" alt="hello">
+</p>
 
-[base](./COMPONENTS/base.gif)
-[inverted](./COMPONENTS/inverted.gif)
+<p>
+  <img src="COMPONENTS/inverted.gif" alt="hello">
+</p>
+
 
 #### Current model parameters- 
-[theta](./COMPONENTS/theta.png)
-[phidot](./COMPONENTS/phi_dot.png)
-[control](./COMPONENTS/control.png)
+<p align="center">
+  <img src="COMPONENTS/theta.png"/>
+</p>
+<p align="center">
+  <img src="COMPONENTS/phi_dot.png"/>
+</p>
+<p align="center">
+  <img src="COMPONENTS/control.png"/>
+</p>
 
 ### Hardware
 Components Used: SRA board, ESP32, MPU6050, NEMA17 stepper motors, A4988 motor driver, Wall E assembly, stepper holders.
