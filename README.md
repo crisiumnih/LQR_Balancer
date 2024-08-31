@@ -1,4 +1,7 @@
 ## LQR Balancer
+
+
+
 This project is dedicated to developing a self-balancing robot using advanced control techniques. Unlike conventional PID controllers, this project uses Linear Quadratic Regulator (LQR) to maintain stability, combining an ESP32, NEMA17 stepper motors, and A4988 motor drivers for a sophisticated control mechanism offering stability and responsiveness. 
 <p align="center">
   <img src="COMPONENTS/irl.png"/>
@@ -62,3 +65,11 @@ Components Used: SRA board, ESP32, MPU6050, NEMA17 stepper motors, A4988 motor d
 - Synchronize UDP rate of angle readings with stepper frequency updates.
 - Implement step response for angle stabilization.
 - Use Kalman filter for precise state estimation.
+
+## Contributors - 
+- [Prajwal Avhad](https://github.com/crisiumnih)
+- [Swanand Patil](https://github.com/SWANPAT2805)
+
+## Mentors - 
+- [Shankari A](https://github.com/Shankari02/)
+- [Nilay Sheth](https://github.com/nilay994)
