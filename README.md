@@ -1,7 +1,7 @@
 ## LQR Balancer
 This project is dedicated to developing a self-balancing robot using advanced control techniques. Unlike conventional PID controllers, this project uses Linear Quadratic Regulator (LQR) to maintain stability, combining an ESP32, NEMA17 stepper motors, and A4988 motor drivers for a sophisticated control mechanism offering stability and responsiveness. 
 <p align="center">
-  <img src="COMPONENTS/Model.png"/>
+  <img src="COMPONENTS/irl.png"/>
 </p>
 
 ---
