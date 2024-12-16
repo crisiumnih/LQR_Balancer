@@ -1,4 +1,0 @@
-- Modelling a system
-- example of pendulum
-- pendulum till 16/07
-- discussed next 2 week workflow
